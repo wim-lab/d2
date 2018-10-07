@@ -5,7 +5,7 @@
  * Copyright r-jp, yaemon.
  * Released under the MIT license
  */
-
+'use strict';
 dView.priceFormat = new Intl.NumberFormat('en-US');
 
 dView.d2liBox = function(a, b, c){

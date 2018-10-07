@@ -6,6 +6,7 @@
  * Released under the MIT license
  *
  */
+ 'use strict';
 const church = {};
 
 // Interfaces.

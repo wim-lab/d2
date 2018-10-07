@@ -405,23 +405,19 @@
     #result ul li:nth-child(2){
         margin-left:10px
     }
-    /*
     .summon , .scrifice{
         cursor:pointer
     }
-    */
     .price{
         display:block;
-        // margin-bottom:.75em;
         padding:8px 0px 2px 15px;
-       // background:rgba(0,0,0,.4);
         color:#fff;
-        // font-size:var(--font12);
         text-align:left;
+        // cursor:pointer;
     }
-		.memo{
-			display:none;
-		}
+    .memo{
+        display:none;
+    }
     #message{
         display:flex;
         align-items:center;
@@ -552,10 +548,10 @@
            /* min-width: 105; */
             max-width: 105px;
         }
-        #result li:last-child {
+         #result li:last-child {
             min-width: 42px;
             max-width: 42px;
-           font-size:var(--font13)
+            font-size:var(--font13)
         }
     }
     @media(min-width:1921px){
