@@ -1,10 +1,10 @@
 'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2018-08-13",
-		"Last maintainer" : "yaemon",
-		"Game Version" : "1.4.1 (ザオウゴンゲン実装)",
-		"OneLiner" : "(Game Version 1.4.1 対応)", // 検索画面に表示される
+		"Last modified" : "2018-10-08",
+		"Last maintainer" : "wim-lab",
+		"Game Version" : "1.6.0 (邪鬼実装)",
+		"OneLiner" : "(Game Version 1.6.0 対応)", // 検索画面に表示される
 	};
 };
 
@@ -670,6 +670,39 @@ church.data = [
 			{"name": "ヴェータラ", "grade": 55, "rare": "★★★", "img": "img/vetara.png", "no": 149, "prop":["-", "弱 / 耐(防魔)", "-", "-", "-", "弱", "無"]},
 		]
 	},
+
+	{
+		"type": "邪鬼",
+		"comb": [
+			{"n1": "妖鬼", "n2": "聖獣"},
+			{"n1": "妖魔", "n2": "地母神"},
+			{"n1": "外道", "n2": "地母神"},
+			{"n1": "幽鬼", "n2": "天使"},
+			{"n1": "邪神", "n2": "妖精"},
+			{"n1": "鬼女", "n2": "妖鬼"},
+			{"n1": "邪神", "n2": "妖鬼"},
+			{"n1": "魔王", "n2": "妖鬼"},
+			{"n1": "邪神", "n2": "夜魔"},
+			{"n1": "魔王", "n2": "夜魔"},
+		],
+		"list": [
+			{"name": "グレムリン", "grade": 11, "rare": "★", "img": "img/suraimu.png", 
+				"no": 183, "prop":["-", "弱 / 耐(防魔)", "耐", "耐", "弱", "-", "-", ]},
+			{"name": "イッポンダタラ", "grade": 26, "rare": "★★", "img": "img/suraimu.png",
+				"no": 184, "prop":["-", "耐", "-", "-", "-", "-", "弱 / 耐(防魔)", ]},
+			{"name": "グレンデル", "grade": 51, "rare": "★★★", "img": "img/suraimu.png",
+				"no": 185, "prop":["耐", "-", "-", "-", "弱 / 耐(防魔)", "-", "-", ]},
+			{"name": "ラクシャーサ", "grade": 61, "rare": "★★★★", "img": "img/suraimu.png",
+				"no": 186, "prop":["耐", "-", "-", "弱", "- / 耐(防魔)", "弱", "-", ]},
+			{"name": "クドラク", "grade": 67, "rare": "★★★★", "img": "img/suraimu.png",
+				"no": 187, "prop":["-", "耐", "-", "-", "-", "弱", "無 / 吸(防魔)", ]},
+			{"name": "ヘカトンケイル", "grade": 74, "rare": "★★★★", "img": "img/suraimu.png",
+				"no": 188, "prop":["無 / 吸(防魔)", "-", "-", "-", "弱", "弱", "-", ]},
+			{"name": "じゃあくフロスト", "grade": 80, "rare": "★★★★★", "img": "img/suraimu.png",
+				"no": 189, "prop":["-", "耐 / 無(防魔)", "無", "-", "-", "弱", "無", ]},
+		]
+	},
+
 /* END_OF_NISHIN_GATTAI */
 	{
 		"type": "魔人",
