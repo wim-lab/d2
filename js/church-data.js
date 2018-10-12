@@ -1,9 +1,9 @@
 'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2018-10-08",
+		"Last modified" : "2018-10-12",
 		"Last maintainer" : "wim-lab",
-		"Game Version" : "1.6.0 (邪鬼実装)",
+		"Game Version" : "1.6.0 (トリック・ランタン実装)",
 		"OneLiner" : "(Game Version 1.6.0 対応)", // 検索画面に表示される
 	};
 };
@@ -744,9 +744,11 @@ church.data = [
 	},
 	{
 		"type": "イベント限定の妖精",
+		"comb": [
+		],
 		"list": [
-			{"name": "トリック・ランタン", "grade": 65, "rare": "★★★★", "img": "img/jakkurantan.png", "no": 82,
-				 "prop":["-", "耐", "弱", "-", "-", "-", "-"]},
+			{"name": "トリック・ランタン", "grade": 65, "rare": "★★★★", "img": "img/jakkurantan.png", "no": 1082,
+				 "prop":["-", "吸", "弱", "-", "-", "-", "-"]},
 		]
 	},
 /* END_OF_NISHIN_GATTAI */
