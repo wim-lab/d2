@@ -11,14 +11,14 @@ dView.priceFormat = new Intl.NumberFormat('en-US');
 dView.d2liBox = function(a, b, c){
   var c = typeof c !== 'undefined' ?  c : "";
 
-	return '<li class ="' + b + '">' +
+	return '<li class ="' + b + '"><a href="#mode=summon#no=' + a.no + '">' +
 	  '<span class = "memo">' +  	a.no  + '</span>' +
 		'<span class="result-name">' + c + a.name + '</span>' +
 		'<div class="result-item"><img src="' + a.img + '" alt=""/>' + 
 		'<span class="result-rare">' + a.rare + '</span>' +
 		'<span class="result-grade">Grade <span class="result-grade-num">' +
 		a.grade + '</span></span>' +
-		'</div></li>';
+		'</div></a></li>';
 };
 
 dView.p2liBox = function(a, b){
