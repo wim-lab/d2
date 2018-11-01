@@ -1,9 +1,9 @@
 'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2018-10-12",
+		"Last modified" : "2018-11-01",
 		"Last maintainer" : "wim-lab",
-		"Game Version" : "1.6.0 (トリック・ランタン実装)",
+		"Game Version" : "1.6.0 (マザーハーロット実装)",
 		"OneLiner" : "(Game Version 1.6.0 対応)", // 検索画面に表示される
 	};
 };
@@ -763,6 +763,8 @@ church.data = [
 				"prop":["-", "-", "-", "-", "-", "弱 / 反(防魔)", "反"]},
 			{"name": "トランぺッター", "grade": 94, "rare": "★★★★★", "img": "img/toranpetta.png", "no": 152, 
 				"prop":["- / 耐(防魔)", "-", "-", "-", "-", "無", "無"]},
+			{"name": "マザーハーロット", "grade": 95, "rare": "★★★★★", "img": "img/motherharlot.png", "no": 190, 
+				"prop":["無 / 吸(防魔)", "-", "-", "吸", "弱", "耐", "耐"]},
 		],
 	},
 	{
