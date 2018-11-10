@@ -2,7 +2,7 @@
  * scrifice-search.js
  * https://github.com/yaemon/
  *
- * Copyright r-jp, yaemon.
+ * Copyright r-jp, yaemon, wimlab.
  * Released under the MIT license
  *
  */
@@ -69,7 +69,7 @@ dView[mode].show = function(a) {
 				break;
 			}
 			if (x.length > 0) {
-				s += '<article class="sozai-search"><h3>' + r.second + "<br>×<br>" + r.summon.type + "</h3>";
+				s += '<article class="sozai-search"><h3>×' + r.second + "<br>＝" + r.summon.type + "</h3>";
 				for (let e of x){
 					var rareSecond = e.second.rare.length;
 					var rareSummon = e.summon.rare.length;
@@ -78,8 +78,8 @@ dView[mode].show = function(a) {
 					s	+= "with" + rareSecond + " get" + rareSummon,
 					s += '">';
 
-					s += dView.d2liBox(e.second, "summon", "+");
-					s += dView.d2liBox(e.summon, "scrifice", "=");
+					s += dView.d2liBox(e.second, "summon", "×");
+					s += dView.d2liBox(e.summon, "scrifice", "＝");
 					s += dView.p2liBox(e.price, rareSummon);
 					s += "</ul>";
 				}
