@@ -2,7 +2,7 @@
  * daemon-disp
  * https://github.com/yaemon/
  *
- * Copyright r-jp, yaemon.
+ * Copyright r-jp, yaemon, wim-lab.
  * Released under the MIT license
  */
 'use strict';
@@ -10,7 +10,6 @@ dView.priceFormat = new Intl.NumberFormat('en-US');
 
 dView.d2liBox = function(a, b, c){
   var c = typeof c !== 'undefined' ?  c : "";
-
 	return '<li class ="' + b + '"><a href="#mode=summon#no=' + a.no + '">' +
 	  '<span class = "memo">' +  	a.no  + '</span>' +
 		'<span class="result-name">' + c + a.name + '</span>' +
