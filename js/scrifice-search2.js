@@ -2,7 +2,7 @@
  * scrifice-search.js
  * https://github.com/yaemon/
  *
- * Copyright r-jp, yaemon, wimlab.
+ * Copyright r-jp, yaemon.
  * Released under the MIT license
  *
  */
@@ -18,6 +18,23 @@ dView[mode].show = function(a) {
 	var stat = {"name":"", "no":0, "mode":mode, "titile":"", "hide":false};
 	if (null == a){
 		stat.title = "〇〇は何の素材になるか";
+		var rList = [];
+		for(let race of church.data){
+			if (null == race.list){continue;}
+			rList.push(race)
+		}
+		
+		for(let r of rList){
+			s += "<article><h3>"+r.type+"</h3>";
+			for(let d of r.list){
+				s += "<ul>";
+				s += dView.d2liBox(d, "summon");
+				s += "</ul>";
+			}
+			s += "</article>"
+		}
+		$("#result").html(s);
+
 		return "";
 	}
 	if (null != a.notFound){

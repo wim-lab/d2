@@ -1,7 +1,7 @@
 'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2018-11-01",
+		"Last modified" : "2018-11-10",
 		"Last maintainer" : "wim-lab",
 		"Game Version" : "1.6.0 (マザーハーロット実装)",
 		"OneLiner" : "(Game Version 1.6.0 対応)", // 検索画面に表示される
@@ -809,7 +809,7 @@ church.data = [
 			{"name": "カンバリ", "grade": 30, "rare": "★★", "img": "img/Kambari.png", "no": 158,
 				"prop":["弱", "- / 耐(防魔)", "-", "-", "-", "耐", "弱"],
 				"union":[75, 62, 104, 30],
-				"price":100},
+				"price":1000},
 			{"name": "キンマモン", "grade": 55, "rare": "★★★", "img": "img/Kinmamon.png", "no": 159,
 				"prop":["-", "無", "弱", "-", "-", "耐", "耐 / 無(防魔)"],
 				"union":[24, 147, 127, 119],
