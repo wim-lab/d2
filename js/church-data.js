@@ -1,10 +1,10 @@
 'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2018-11-10",
+		"Last modified" : "2018-11-14",
 		"Last maintainer" : "wim-lab",
-		"Game Version" : "1.6.0 (マザーハーロット実装)",
-		"OneLiner" : "(Game Version 1.6.0 対応)", // 検索画面に表示される
+		"Game Version" : "1.7.2 (イザナミ実装)",
+		"OneLiner" : "(Game Version 1.7.2 対応)", // 検索画面に表示される
 	};
 };
 
@@ -62,6 +62,7 @@ church.data = [
 			{"name": "サラスヴァティ", "grade": 69, "rare": "★★★★", "img": "img/sarasuvathi.png", "no": 10, "prop":["-", "弱", "無 / 反(防魔)", "-", "-", "-", "弱"]},
 			{"name": "イシュタル", "grade": 82, "rare": "★★★★★", "img": "img/ishutaru.png", "no": 11, "prop":["-", "-", "-", "無", "弱 / 無(防魔)", "無", "弱"]},
 			{"name": "ラクシュミ", "grade": 85, "rare": "★★★★★", "img": "img/rakushumi.png", "no": 12, "prop":["-", "-", "-", "-", "弱 / 無(防魔)", "耐", "無"]},
+			{"name": "イザナミ", "grade": 89, "rare": "★★★★★", "img": "img/suraimu.png", "no": 191, "prop":["-", "-", "-", "-", "-", "-", "-"]},
 		]
 	},
 
@@ -800,6 +801,10 @@ church.data = [
 				"prop":["-", "-", "-", "-", "- / 無(防魔)", "弱", "反"],
 				"union":[131, 144, 145],
 				"price":500},
+			{"name": "カシマレイコ", "grade": 42, "rare": "★★★", "img": "img/suraimu.png", "no": 193,
+				"prop":["-", "弱", "-", "-", "-", "弱", "吸"],
+				"union":[1, 158, 47],
+				"price":0},
 		],
 	},
 
@@ -827,6 +832,10 @@ church.data = [
 				"prop":["耐", "-", "- / 無(防魔)", "-", "-", "-", "-"],
 				"union":[118, 7, 43, 101],
 				"price":200000},
+			{"name": "ディオニュソス", "grade": 64, "rare": "★★★★", "img": "img/suraimu.png", "no": 192,
+				"prop":["-", "無", "弱", "無", "-", "-", "-"],
+				"union":[36, 21, 9],
+				"price":0},
 		],
 	},
 	{
