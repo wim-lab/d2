@@ -26,12 +26,12 @@ church.data = [
 			{"n1": "聖獣", "n2": "堕天使"},
 		],
 		"list": [
-			{"name": "ライラ", "grade": 43, "rare": "★★★", "img": "img/raira.png", "no": 1, "prop":["-", "-", "-", "弱 / 耐(防魔)", "耐", "無", "弱"]},
-			{"name": "サンダルフォン", "grade": 61, "rare": "★★★★", "img": "img/sandarufon.png", "no": 2, "prop":["耐", "-", "-", "耐", "- / 耐(防魔)", "反", "無"]},
-			{"name": "アズラエル", "grade": 67, "rare": "★★★★", "img": "img/azuraeru.png", "no": 3, "prop":["耐", "耐", "弱", "-", "-", "反", "耐 / 無(防魔)"]},
-			{"name": "マンセマット", "grade": 83, "rare": "★★★★★", "img": "img/Mastema.png", "no": 169, "prop":["-", "弱", "無 / 反(防魔)", "-", "反", "反", " -"]},
-			{"name": "ミカエル", "grade": 90, "rare": "★★★★★", "img": "img/mikaeru.png", "no": 4, "prop":["-", "-", "無", "無", "-", "反", "弱 / 反(防魔)"]},
-			{"name": "メタトロン", "grade": 99, "rare": "★★★★★", "img": "img/metatoron.png", "no": 5, "prop":["-", "耐", "耐", "耐 / 反(防魔)", "耐", "無", "-"]},
+			{"name": "ライラ", "grade": 43, "rare": "★★★", "img": "img/lailah.png", "no": 1, "prop":["-", "-", "-", "弱 / 耐(防魔)", "耐", "無", "弱"]},
+			{"name": "サンダルフォン", "grade": 61, "rare": "★★★★", "img": "img/sandalphon.png", "no": 2, "prop":["耐", "-", "-", "耐", "- / 耐(防魔)", "反", "無"]},
+			{"name": "アズラエル", "grade": 67, "rare": "★★★★", "img": "img/azrael.png", "no": 3, "prop":["耐", "耐", "弱", "-", "-", "反", "耐 / 無(防魔)"]},
+			{"name": "マンセマット", "grade": 83, "rare": "★★★★★", "img": "img/mansemat.png", "no": 169, "prop":["-", "弱", "無 / 反(防魔)", "-", "反", "反", " -"]},
+			{"name": "ミカエル", "grade": 90, "rare": "★★★★★", "img": "img/michael.png", "no": 4, "prop":["-", "-", "無", "無", "-", "反", "弱 / 反(防魔)"]},
+			{"name": "メタトロン", "grade": 99, "rare": "★★★★★", "img": "img/metatron.png", "no": 5, "prop":["-", "耐", "耐", "耐 / 反(防魔)", "耐", "無", "-"]},
 		]
 	},
 	{
@@ -55,14 +55,14 @@ church.data = [
 			{"n1": "邪鬼", "n2": "幽鬼"},
 		],
 		"list": [
-			{"name": "ハトホル", "grade": 27, "rare": "★★", "img": "img/hatohoru.png", "no": 6, "prop":["弱", "-", "耐", "-", "耐 / 無(防魔)", "耐", "-"]},
-			{"name": "アリアンロッド", "grade": 44, "rare": "★★★", "img": "img/arianroddo.png", "no": 7, "prop":["耐", "-", "- / 無(防魔)", "-", "-", "耐", "-"]},
-			{"name": "スカアハ", "grade": 50, "rare": "★★★", "img": "img/sukaaha.png", "no": 8, "prop":["-", "-", "-", "弱 / 耐(防魔)", "無", "耐", "-"]},
-			{"name": "パラスアテナ", "grade": 62, "rare": "★★★★", "img": "img/parasuatena.png", "no": 9, "prop":["耐", "- / 無(防魔)", "-", "-", "-", "無", "弱"]},
-			{"name": "サラスヴァティ", "grade": 69, "rare": "★★★★", "img": "img/sarasuvathi.png", "no": 10, "prop":["-", "弱", "無 / 反(防魔)", "-", "-", "-", "弱"]},
-			{"name": "イシュタル", "grade": 82, "rare": "★★★★★", "img": "img/ishutaru.png", "no": 11, "prop":["-", "-", "-", "無", "弱 / 無(防魔)", "無", "弱"]},
-			{"name": "ラクシュミ", "grade": 85, "rare": "★★★★★", "img": "img/rakushumi.png", "no": 12, "prop":["-", "-", "-", "-", "弱 / 無(防魔)", "耐", "無"]},
-			{"name": "イザナミ", "grade": 89, "rare": "★★★★★", "img": "img/suraimu.png", "no": 191, "prop":["-", "-", "-", "-", "-", "-", "-"]},
+			{"name": "ハトホル", "grade": 27, "rare": "★★", "img": "img/hathor.png", "no": 6, "prop":["弱", "-", "耐", "-", "耐 / 無(防魔)", "耐", "-"]},
+			{"name": "アリアンロッド", "grade": 44, "rare": "★★★", "img": "img/arianrhod.png", "no": 7, "prop":["耐", "-", "- / 無(防魔)", "-", "-", "耐", "-"]},
+			{"name": "スカアハ", "grade": 50, "rare": "★★★", "img": "img/scathach.png", "no": 8, "prop":["-", "-", "-", "弱 / 耐(防魔)", "無", "耐", "-"]},
+			{"name": "パラスアテナ", "grade": 62, "rare": "★★★★", "img": "img/pallasathena.png", "no": 9, "prop":["耐", "- / 無(防魔)", "-", "-", "-", "無", "弱"]},
+			{"name": "サラスヴァティ", "grade": 69, "rare": "★★★★", "img": "img/saraswati.png", "no": 10, "prop":["-", "弱", "無 / 反(防魔)", "-", "-", "-", "弱"]},
+			{"name": "イシュタル", "grade": 82, "rare": "★★★★★", "img": "img/ishtar.png", "no": 11, "prop":["-", "-", "-", "無", "弱 / 無(防魔)", "無", "弱"]},
+			{"name": "ラクシュミ", "grade": 85, "rare": "★★★★★", "img": "img/lakshmi.png", "no": 12, "prop":["-", "-", "-", "-", "弱 / 無(防魔)", "耐", "無"]},
+			{"name": "イザナミ", "grade": 89, "rare": "★★★★★", "img": "img/slime.png", "no": 191, "prop":["-", "-", "-", "-", "-", "-", "-"]},
 		]
 	},
 
@@ -85,12 +85,12 @@ church.data = [
 			{"n1": "聖獣", "n2": "邪鬼"},
 		],
 		"list": [
-			{"name": "ハンサ", "grade": 24, "rare": "★★", "img": "img/Hamsa.png", "no": 161, "prop":["-", "-", "- / 耐(防魔)", "耐", "-", "-", "弱"]},
-			{"name": "スパルナ", "grade": 28, "rare": "★★", "img": "img/Suparna.png", "no": 162, "prop":["-", "-", "-", "耐 / 無(防魔)", "-", "耐", "弱",]},
-			{"name": "ジャターユ", "grade": 44, "rare": "★★★", "img": "img/Jatayu.png", "no": 163, "prop":["-", "-", "-", "-", "-", "弱", "無 / 反(防魔)"]},
-			{"name": "スザク", "grade": 53, "rare": "★★★", "img": "img/Suzaku.png", "no": 164, "prop":["弱 / 耐(防魔)", "無", "弱", "-", "-", "-", "-"]},
-			{"name": "ヤタガラス", "grade": 66, "rare": "★★★★", "img": "img/YataGarasu.png", "no": 165, "prop":["- / 耐(防魔)", "無", "弱", "-", "-", "耐", "-"]},
-			{"name": "ガルーダ", "grade": 80, "rare": "★★★★★", "img": "img/Garuda.png", "no": 166, "prop":["-", "反", "弱", "-", "無", "耐 / 無(防魔)", "-"]},
+			{"name": "ハンサ", "grade": 24, "rare": "★★", "img": "img/hamsa.png", "no": 161, "prop":["-", "-", "- / 耐(防魔)", "耐", "-", "-", "弱"]},
+			{"name": "スパルナ", "grade": 28, "rare": "★★", "img": "img/suparna.png", "no": 162, "prop":["-", "-", "-", "耐 / 無(防魔)", "-", "耐", "弱",]},
+			{"name": "ジャターユ", "grade": 44, "rare": "★★★", "img": "img/jatayu.png", "no": 163, "prop":["-", "-", "-", "-", "-", "弱", "無 / 反(防魔)"]},
+			{"name": "スザク", "grade": 53, "rare": "★★★", "img": "img/suzaku.png", "no": 164, "prop":["弱 / 耐(防魔)", "無", "弱", "-", "-", "-", "-"]},
+			{"name": "ヤタガラス", "grade": 66, "rare": "★★★★", "img": "img/yatagarasu.png", "no": 165, "prop":["- / 耐(防魔)", "無", "弱", "-", "-", "耐", "-"]},
+			{"name": "ガルーダ", "grade": 80, "rare": "★★★★★", "img": "img/garuda.png", "no": 166, "prop":["-", "反", "弱", "-", "無", "耐 / 無(防魔)", "-"]},
 		]
 	},
 
@@ -110,12 +110,12 @@ church.data = [
 			{"n1": "破壊神", "n2": "邪鬼"},
 		],
 		"list": [
-			{"name": "ホルス", "grade": 49, "rare": "★★★", "img": "img/horusu.png", "no": 13, "prop":["耐", "-", "-", "- / 無(防魔)", "-", "反", "弱"]},
-			{"name": "ミトラ", "grade": 55, "rare": "★★★", "img": "img/mitora.png", "no": 14, "prop":["反", "-", "弱", "-", "- / 耐(防魔)", "耐", "耐"]},
-			{"name": "プロメテウス", "grade": 67, "rare": "★★★★", "img": "img/purometeusu.png", "no": 15, "prop":["-", "無 / 吸(防魔)", "弱", "-", "-", "耐", "-"]},
-			{"name": "オーディン", "grade": 73, "rare": "★★★★", "img": "img/odhin.png", "no": 16, "prop":["-", "-", "-", "反", "弱", "耐", "耐 / 無(防魔)"]},
+			{"name": "ホルス", "grade": 49, "rare": "★★★", "img": "img/horus.png", "no": 13, "prop":["耐", "-", "-", "- / 無(防魔)", "-", "反", "弱"]},
+			{"name": "ミトラ", "grade": 55, "rare": "★★★", "img": "img/mitra.png", "no": 14, "prop":["反", "-", "弱", "-", "- / 耐(防魔)", "耐", "耐"]},
+			{"name": "プロメテウス", "grade": 67, "rare": "★★★★", "img": "img/prometheus.png", "no": 15, "prop":["-", "無 / 吸(防魔)", "弱", "-", "-", "耐", "-"]},
+			{"name": "オーディン", "grade": 73, "rare": "★★★★", "img": "img/odin.png", "no": 16, "prop":["-", "-", "-", "反", "弱", "耐", "耐 / 無(防魔)"]},
 			{"name": "アマテラス", "grade": 82, "rare": "★★★★★", "img": "img/amaterasu.png", "no": 17, "prop":["-", "反", "-", "弱 / 無(防魔)", "-", "耐", "-"]},
-			{"name": "ヴィシュヌ", "grade": 97, "rare": "★★★★★", "img": "img/vishunu.png", "no": 18, "prop":["-", "弱", "吸", "-", "-", "無", "無 / 反(防魔)"]},
+			{"name": "ヴィシュヌ", "grade": 97, "rare": "★★★★★", "img": "img/vishnu.png", "no": 18, "prop":["-", "弱", "吸", "-", "-", "無", "無 / 反(防魔)"]},
 		]
 	},
 	{
@@ -137,9 +137,9 @@ church.data = [
 		"list": [
 			{"name": "シーサー", "grade": 33, "rare": "★★", "img": "img/shisa.png", "no": 19, "prop":["-", "耐 / 耐(防魔)", "-", "-", "耐", "耐", "-"]},
 			{"name": "マカミ", "grade": 41, "rare": "★★★", "img": "img/makami.png", "no": 20, "prop":["-", "-", "-", "- / 無(防魔)", "-", "耐", "弱"]},
-			{"name": "キマイラ", "grade": 49, "rare": "★★★", "img": "img/kimaira.png", "no": 21, "prop":["-", "耐", "-", "耐", "弱 / 耐(防魔)", "-", "-"]},
-			{"name": "アヌビス", "grade": 70, "rare": "★★★★", "img": "img/anubisu.png", "no": 22, "prop":["-", "-", "-", "-", "-", "無", "耐 / 無(防魔)"]},
-			{"name": "バロン", "grade": 84, "rare": "★★★★★", "img": "img/baron.png", "no": 23, "prop":["耐", "-", "-", "無", "弱", "無", "弱 / 無(防魔)"]},
+			{"name": "キマイラ", "grade": 49, "rare": "★★★", "img": "img/chimera.png", "no": 21, "prop":["-", "耐", "-", "耐", "弱 / 耐(防魔)", "-", "-"]},
+			{"name": "アヌビス", "grade": 70, "rare": "★★★★", "img": "img/anubis.png", "no": 22, "prop":["-", "-", "-", "-", "-", "無", "耐 / 無(防魔)"]},
+			{"name": "バロン", "grade": 84, "rare": "★★★★★", "img": "img/barong.png", "no": 23, "prop":["耐", "-", "-", "無", "弱", "無", "弱 / 無(防魔)"]},
 		]
 	},
 	{
@@ -165,12 +165,12 @@ church.data = [
 			{"n1": "霊鳥", "n2": "邪鬼"},
 		],
 		"list": [
-			{"name": "ヘケト", "grade": 27, "rare": "★★", "img": "img/heketo.png", "no": 24, "prop":["-", "- / 耐(防魔)", "-", "耐", "弱", "-", "-"]},
-			{"name": "ユニコーン", "grade": 42, "rare": "★★★", "img": "img/yunikon.png", "no": 25, "prop":["-", "-", "- / 耐(防魔)", "弱", "-", "無", "無"]},
-			{"name": "アピス", "grade": 44, "rare": "★★★", "img": "img/apisu.png", "no": 26, "prop":["-", "-", "-", "-", "-", "耐", "弱 / 耐(防魔)"]},
+			{"name": "ヘケト", "grade": 27, "rare": "★★", "img": "img/heqet.png", "no": 24, "prop":["-", "- / 耐(防魔)", "-", "耐", "弱", "-", "-"]},
+			{"name": "ユニコーン", "grade": 42, "rare": "★★★", "img": "img/unicorn.png", "no": 25, "prop":["-", "-", "- / 耐(防魔)", "弱", "-", "無", "無"]},
+			{"name": "アピス", "grade": 44, "rare": "★★★", "img": "img/apis.png", "no": 26, "prop":["-", "-", "-", "-", "-", "耐", "弱 / 耐(防魔)"]},
 			{"name": "ビャッコ", "grade": 48, "rare": "★★★", "img": "img/byakko.png", "no": 27, "prop":["- / 耐(防魔)", "-", "-", "無", "弱", "-", "-"]},
-			{"name": "スレイプニル", "grade": 62, "rare": "★★★★", "img": "img/sureipuniru.png", "no": 28, "prop":["-", "弱", "-", "-", "-", "耐 / 無(防魔)", "-"]},
-			{"name": "スフィンクス", "grade": 76, "rare": "★★★★", "img": "img/sufinkusu.png", "no": 29, "prop":["-", "無", "弱 / 無(防魔)", "-", "-", "反", "弱"]},
+			{"name": "スレイプニル", "grade": 62, "rare": "★★★★", "img": "img/sleipnir.png", "no": 28, "prop":["-", "弱", "-", "-", "-", "耐 / 無(防魔)", "-"]},
+			{"name": "スフィンクス", "grade": 76, "rare": "★★★★", "img": "img/sphinx.png", "no": 29, "prop":["-", "無", "弱 / 無(防魔)", "-", "-", "反", "弱"]},
 		]
 	},
 	{
@@ -194,11 +194,11 @@ church.data = [
 		],
 		"list": [
 			{"name": "クラマテング", "grade": 27, "rare": "★★", "img": "img/kuramatengu.png", "no": 30, "prop":["-", "- / 耐(防魔)", "-", "弱", "無", "-", "-"]},
-			{"name": "タム・リン", "grade": 40, "rare": "★★★", "img": "img/tamurin.png", "no": 31, "prop":["-", "- / 耐(防魔)", "-", "-", "-", "耐", "弱"]},
-			{"name": "クルースニク", "grade": 49, "rare": "★★★", "img": "img/kurusuniku.png", "no": 32, "prop":["-", "-", "-", "-", "弱", "無", "- / 無(防魔)"]},
+			{"name": "タム・リン", "grade": 40, "rare": "★★★", "img": "img/tamlin.png", "no": 31, "prop":["-", "- / 耐(防魔)", "-", "-", "-", "耐", "弱"]},
+			{"name": "クルースニク", "grade": 49, "rare": "★★★", "img": "img/kresnik.png", "no": 32, "prop":["-", "-", "-", "-", "弱", "無", "- / 無(防魔)"]},
 			{"name": "ハヌマーン", "grade": 60, "rare": "★★★★", "img": "img/hanuman.png", "no": 33, "prop":["-", "-", "-", "弱", "無 / 反(防魔)", "-", "-"]},
 			{"name": "ツクヨミ", "grade": 67, "rare": "★★★★", "img": "img/tsukuyomi.png", "no": 34, "prop":["弱", "無 / 吸(防魔)", "無", "耐", "耐", "-", "-"]},
-			{"name": "クー・フーリン", "grade": 81, "rare": "★★★★★", "img": "img/kufurin.png", "no": 35, "prop":["耐", "-", "-", "-", "無", "-", "- / 反(防魔)"]},
+			{"name": "クー・フーリン", "grade": 81, "rare": "★★★★★", "img": "img/cuchulainn.png", "no": 35, "prop":["耐", "-", "-", "-", "無", "-", "- / 反(防魔)"]},
 		]
 	},
 	{
@@ -221,7 +221,7 @@ church.data = [
 			{"n1": "霊鳥", "n2": "地母神"},
 		],
 		"list": [
-			{"name": "アレス", "grade": 44, "rare": "★★★", "img": "img/aresu.png", "no": 36, 
+			{"name": "アレス", "grade": 44, "rare": "★★★", "img": "img/ares.png", "no": 36, 
 				"prop":["- / 耐(防魔)", "-", "-", "-", "-", "耐", "弱"]},
 			{"name": "セイテンタイセイ", "grade": 61, "rare": "★★★★", "img": "img/seitentaisei.png", "no": 37, 
 				"prop":["耐 / 無(防魔)", "耐", "-", "弱", "耐", "耐", "弱"]},
@@ -229,7 +229,7 @@ church.data = [
 				"prop":["-", "弱", "無 / 反(防魔)", "-", "-", "耐", "-"]},
 			{"name": "スサノオ", "grade": 82, "rare": "★★★★★", "img": "img/susanoo.png", "no": 39, 
 				"prop":["耐", "弱", "-", "- / 吸(防魔)", "吸", "-", "-"]},
- 			{"name": "ザオウゴンゲン", "grade": 85, "rare": "★★★★★", "img": "img/ZaohGongen.png", "no": 180,
+ 			{"name": "ザオウゴンゲン", "grade": 85, "rare": "★★★★★", "img": "img/zaougongen.png", "no": 180,
  				"prop":["無 / 吸(防魔)", "反", "-", "弱", "-", "耐", "耐",  ]},
 			{"name": "シヴァ", "grade": 93, "rare": "★★★★★", "img": "img/shiva.png", "no": 40, 
 				"prop":["耐", "吸", "弱 / 吸(防魔)", "吸", "-", "-", "-"]},
@@ -252,19 +252,19 @@ church.data = [
 			{"n1": "龍王", "n2": "邪鬼"},
 		],
 		"list": [
-			{"name": "パトリムパス", "grade": 35, "rare": "★★", "img": "img/Patrimpas.png", 
+			{"name": "パトリムパス", "grade": 35, "rare": "★★", "img": "img/patrimpas.png", 
 				"no": 173, "prop":["-", "弱 / 耐(防魔)", "耐", "-", "耐", "-", "弱", ]},
-			{"name": "マカラ", "grade": 41, "rare": "★★★", "img": "img/Makara.png",
+			{"name": "マカラ", "grade": 41, "rare": "★★★", "img": "img/makara.png",
 				"no": 174, "prop":["-", "弱 / 耐(防魔)", "耐", "-", "-", "-", "-", ]},
-			{"name": "イルルヤンカシュ", "grade": 47, "rare": "★★★", "img": "img/Illuyankas.png",
+			{"name": "イルルヤンカシュ", "grade": 47, "rare": "★★★", "img": "img/illuyankas.png",
 				"no": 175, "prop":["-", "-", "耐", "-", "耐 / 無(防魔)", "-", "-", ]},
-			{"name": "セイリュウ", "grade": 63, "rare": "★★★★", "img": "img/qīnglóng.png",
+			{"name": "セイリュウ", "grade": 63, "rare": "★★★★", "img": "img/seiryu.png",
 				"no": 176, "prop":["-", "-", "耐", "弱", "無 / 反(防魔)", "-", "-"]},
-			{"name": "グクマッツ", "grade": 69, "rare": "★★★★", "img": "img/Gukumatz.png",
+			{"name": "グクマッツ", "grade": 69, "rare": "★★★★", "img": "img/gukumatz.png",
 				"no": 177, "prop":["-", "弱 / 無(防魔)", "耐", "-", "耐", "-", "-"]},
-			{"name": "ケツアルカトル", "grade": 80, "rare": "★★★★★", "img": "img/Quetzalcōātl.png",
+			{"name": "ケツアルカトル", "grade": 80, "rare": "★★★★★", "img": "img/quetzalcoatl.png",
 				"no": 178, "prop":["耐 / 反(防魔)", "耐", "-", "-", "耐", "耐", "弱",]},
-			{"name": "コウリュウ", "grade": 88, "rare": "★★★★★", "img": "img/huánglóng.png",
+			{"name": "コウリュウ", "grade": 88, "rare": "★★★★★", "img": "img/kouryu.png",
 				"no": 179, "prop":["-", "耐", "耐", "耐", "耐", "無", "- / 無(防魔)",]},
 		]
 	},
@@ -288,12 +288,12 @@ church.data = [
 			{"n1": "イベント限定の妖精", "n2": "邪鬼"},
 		],
 		"list": [
-			{"name": "ペレ", "grade": 40, "rare": "★★★", "img": "img/pere.png", "no": 41, "prop":["- / 耐(防魔)", "耐", "弱", "-", "-", "-", "-"]},
+			{"name": "ペレ", "grade": 40, "rare": "★★★", "img": "img/pele.png", "no": 41, "prop":["- / 耐(防魔)", "耐", "弱", "-", "-", "-", "-"]},
 			{"name": "クシナダヒメ", "grade": 47, "rare": "★★★", "img": "img/kushinadahime.png", "no": 42, "prop":["-", "-", "-", "-", "-", "耐 / 無(防魔)", "弱"]},
-			{"name": "イシス", "grade": 54, "rare": "★★★", "img": "img/ishisu.png", "no": 43, "prop":["-", "耐", "-", "無", "- / 無(防魔)", "-", "-"]},
+			{"name": "イシス", "grade": 54, "rare": "★★★", "img": "img/isis.png", "no": 43, "prop":["-", "耐", "-", "無", "- / 無(防魔)", "-", "-"]},
 			{"name": "キクリヒメ", "grade": 60, "rare": "★★★★", "img": "img/kikurihime.png", "no": 44, "prop":["-", "-", "-", "弱", "無", "-", "弱 / 耐(防魔)"]},
-			{"name": "スカディ", "grade": 67, "rare": "★★★★", "img": "img/sukadhi.png", "no": 45, "prop":["-", "弱 / 耐(防魔)", "吸", "-", "-", "-", "-"]},
-			{"name": "アシェラト", "grade": 83, "rare": "★★★★★", "img": "img/asherato.png", "no": 46, "prop":["-", "無", "弱 / 反(防魔)", "-", "無", "-", "弱"]},
+			{"name": "スカディ", "grade": 67, "rare": "★★★★", "img": "img/skadi.png", "no": 45, "prop":["-", "弱 / 耐(防魔)", "吸", "-", "-", "-", "-"]},
+			{"name": "アシェラト", "grade": 83, "rare": "★★★★★", "img": "img/ashratu.png", "no": 46, "prop":["-", "無", "弱 / 反(防魔)", "-", "無", "-", "弱"]},
 		]
 	},
 	{
@@ -321,7 +321,7 @@ church.data = [
 			{"name": "ジコクテン", "grade": 62, "rare": "★★★★", "img": "img/jikokuten.png", "no": 50, "prop":["-", "- / 無(防魔)", "-", "弱", "無", "耐", "-"]},
 			{"name": "ビシャモンテン", "grade": 70, "rare": "★★★★", "img": "img/bishamonten.png", "no": 51, "prop":["-", "弱", "無", "-", "-", "-", "- / 耐(防魔)"]},
 			{"name": "ショウキ", "grade": 75, "rare": "★★★★", "img": "img/shouki.png", "no": 52, "prop":["- / 耐(防魔)", "耐", "-", "-", "弱", "耐", "-"]},
-			{"name": "トール", "grade": 83, "rare": "★★★★★", "img": "img/toru.png", "no": 53, "prop":["耐", "無 / 反(防魔)", "-", "吸", "弱", "耐", "-"]},
+			{"name": "トール", "grade": 83, "rare": "★★★★★", "img": "img/thor.png", "no": 53, "prop":["耐", "無 / 反(防魔)", "-", "吸", "弱", "耐", "-"]},
 		]
 	},
 	{
@@ -343,13 +343,13 @@ church.data = [
 			{"n1": "鬼女", "n2": "夜魔"},
 		],
 		"list": [
-			{"name": "エンジェル", "grade": 20, "rare": "★★", "img": "img/enjeru.png", "no": 54, "prop":["-", "-", "-", "弱 / 耐(防魔)", "-", "無", "弱"]},
-			{"name": "アークエンジェル", "grade": 25, "rare": "★★", "img": "img/akuenjeru.png", "no": 55, "prop":["- / 耐(防魔)", "-", "-", "-", "-", "無", "弱"]},
-			{"name": "プリンシパリティ", "grade": 35, "rare": "★★", "img": "img/purinshiparithi.png", "no": 56, "prop":["-", "-", "-", "-", "-", "無", "弱 / 耐(防魔)"]},
-			{"name": "パワー", "grade": 40, "rare": "★★★", "img": "img/pawa.png", "no": 57, "prop":["-", "-", "-", "耐", "弱 / 耐(防魔)", "無", "弱"]},
-			{"name": "ヴァーチャー", "grade": 47, "rare": "★★★", "img": "img/vacha.png", "no": 58, "prop":["-", "-", "- / 無(防魔)", "弱", "無", "無", "弱"]},
+			{"name": "エンジェル", "grade": 20, "rare": "★★", "img": "img/angel.png", "no": 54, "prop":["-", "-", "-", "弱 / 耐(防魔)", "-", "無", "弱"]},
+			{"name": "アークエンジェル", "grade": 25, "rare": "★★", "img": "img/archangel.png", "no": 55, "prop":["- / 耐(防魔)", "-", "-", "-", "-", "無", "弱"]},
+			{"name": "プリンシパリティ", "grade": 35, "rare": "★★", "img": "img/principality.png", "no": 56, "prop":["-", "-", "-", "-", "-", "無", "弱 / 耐(防魔)"]},
+			{"name": "パワー", "grade": 40, "rare": "★★★", "img": "img/power.png", "no": 57, "prop":["-", "-", "-", "耐", "弱 / 耐(防魔)", "無", "弱"]},
+			{"name": "ヴァーチャー", "grade": 47, "rare": "★★★", "img": "img/virtue.png", "no": 58, "prop":["-", "-", "- / 無(防魔)", "弱", "無", "無", "弱"]},
 			{"name": "ドミニオン", "grade": 53, "rare": "★★★", "img": "img/dominion.png", "no": 59, "prop":["-", "-", "-", "耐 / 無(防魔)", "弱", "無", "弱"]},
-			{"name": "ソロネ", "grade": 60, "rare": "★★★★", "img": "img/sorone.png", "no": 60, "prop":["-", "無", "弱 / 無(防魔)", "-", "-", "無", "弱"]},
+			{"name": "ソロネ", "grade": 60, "rare": "★★★★", "img": "img/throne.png", "no": 60, "prop":["-", "無", "弱 / 無(防魔)", "-", "-", "無", "弱"]},
 		]
 	},
 	{
@@ -368,13 +368,13 @@ church.data = [
 			{"n1": "邪鬼", "n2": "夜魔"},
 		],
 		"list": [
-			{"name": "アガシオン", "grade": 5, "rare": "★", "img": "img/agashion.png", "no": 61, "prop":["-", "耐", "弱", "耐", "-", "-", "弱 / 耐(防魔)"]},
+			{"name": "アガシオン", "grade": 5, "rare": "★", "img": "img/agathion.png", "no": 61, "prop":["-", "耐", "弱", "耐", "-", "-", "弱 / 耐(防魔)"]},
 			{"name": "コッパテング", "grade": 7, "rare": "★", "img": "img/koppatengu.png", "no": 62, "prop":["-", "- / 耐(防魔)", "-", "弱", "耐", "-", "-"]},
-			{"name": "アプサラス", "grade": 11, "rare": "★", "img": "img/apusarasu.png", "no": 63, "prop":["-", "弱", "耐", "- / 耐(防魔)", "-", "-", "-"]},
-			{"name": "ディース", "grade": 34, "rare": "★★", "img": "img/dhisu.png", "no": 64, "prop":["-", "-", "耐", "耐", "- / 耐(防魔)", "-", "弱"]},
-			{"name": "ヴァルキリー", "grade": 40, "rare": "★★★", "img": "img/varukiri.png", "no": 65, "prop":["耐", "-", "-", "弱 / 耐(防魔)", "耐", "-", "-"]},
-			{"name": "イフリート", "grade": 52, "rare": "★★★", "img": "img/ifurito.png", "no": 66, "prop":["-", "吸", "弱", "- / 耐(防魔)", "-", "-", "-"]},
-			{"name": "ガネーシャ", "grade": 66, "rare": "★★★★", "img": "img/ganesha.png", "no": 67, "prop":["耐", "-", "-", "弱", "無", "-", "弱 / 無(防魔)"]},
+			{"name": "アプサラス", "grade": 11, "rare": "★", "img": "img/apsara.png", "no": 63, "prop":["-", "弱", "耐", "- / 耐(防魔)", "-", "-", "-"]},
+			{"name": "ディース", "grade": 34, "rare": "★★", "img": "img/dis.png", "no": 64, "prop":["-", "-", "耐", "耐", "- / 耐(防魔)", "-", "弱"]},
+			{"name": "ヴァルキリー", "grade": 40, "rare": "★★★", "img": "img/valkyrie.png", "no": 65, "prop":["耐", "-", "-", "弱 / 耐(防魔)", "耐", "-", "-"]},
+			{"name": "イフリート", "grade": 52, "rare": "★★★", "img": "img/ifrit.png", "no": 66, "prop":["-", "吸", "弱", "- / 耐(防魔)", "-", "-", "-"]},
+			{"name": "ガネーシャ", "grade": 66, "rare": "★★★★", "img": "img/ganesa.png", "no": 67, "prop":["耐", "-", "-", "弱", "無", "-", "弱 / 無(防魔)"]},
 		]
 	},
 	{
@@ -403,7 +403,7 @@ church.data = [
 			{"name": "ナーガ", "grade": 28, "rare": "★★", "img": "img/naga.png", "no": 69, "prop":["-", "弱", "耐 / 無(防魔)", "耐", "弱", "-", "弱"]},
 			{"name": "ゲンブ", "grade": 45, "rare": "★★★", "img": "img/genbu.png", "no": 70, "prop":["- / 耐(防魔)", "弱", "無", "-", "-", "-", "-"]},
 			{"name": "ヤマタノオロチ", "grade": 61, "rare": "★★★★", "img": "img/yamatanoorochi.png", "no": 71, "prop":["-", "無", "無", "弱", "-", "- / 無(防魔)", "-"]},
-			{"name": "ユルング", "grade": 70, "rare": "★★★★", "img": "img/yurungu.png", "no": 72, "prop":["-", "弱 / 耐(防魔)", "無", "耐", "-", "-", "弱"]},
+			{"name": "ユルング", "grade": 70, "rare": "★★★★", "img": "img/yurlungur.png", "no": 72, "prop":["-", "弱 / 耐(防魔)", "無", "耐", "-", "-", "弱"]},
 			{"name": "アナンタ", "grade": 83, "rare": "★★★★★", "img": "img/ananta.png", "no": 73, "prop":["-", "-", "無 / 吸(防魔)", "無", "弱", "無", "-"]},
 		]
 	},
@@ -426,12 +426,12 @@ church.data = [
 			{"n1": "邪鬼", "n2": "妖獣"},
 		],
 		"list": [
-			{"name": "カーシー", "grade": 3, "rare": "★", "img": "img/kashi.png", "no": 74, "prop":["-", "- / 耐(防魔)", "-", "-", "-", "無", "-"]},
+			{"name": "カーシー", "grade": 3, "rare": "★", "img": "img/cusith.png", "no": 74, "prop":["-", "- / 耐(防魔)", "-", "-", "-", "無", "-"]},
 			{"name": "イヌガミ", "grade": 9, "rare": "★", "img": "img/inugami.png", "no": 75, "prop":["-", "耐", "弱", "-", "-", "-", "- / 耐(防魔)"]},
 			{"name": "ネコマタ", "grade": 14, "rare": "★", "img": "img/nekomata.png", "no": 76, "prop":["-", "耐", "弱 / 耐(防魔)", "弱", "耐", "-", "-"]},
-			{"name": "オルトロス", "grade": 35, "rare": "★★", "img": "img/orutorosu.png", "no": 77, "prop":["-", "無", "弱", "- / 耐(防魔)", "-", "-", "耐"]},
+			{"name": "オルトロス", "grade": 35, "rare": "★★", "img": "img/orthrus.png", "no": 77, "prop":["-", "無", "弱", "- / 耐(防魔)", "-", "-", "耐"]},
 			{"name": "アーマーン", "grade": 44, "rare": "★★★", "img": "img/aman.png", "no": 78, "prop":["-", "-", "弱 / 耐(防魔)", "無", "-", "-", "-"]},
-			{"name": "ケルベロス", "grade": 61, "rare": "★★★★", "img": "img/keruberosu.png", "no": 79, "prop":["- / 耐(防魔)", "反", "弱", "-", "-", "-", "-"]},
+			{"name": "ケルベロス", "grade": 61, "rare": "★★★★", "img": "img/cerberus.png", "no": 79, "prop":["- / 耐(防魔)", "反", "弱", "-", "-", "-", "-"]},
 		]
 	},
 	{
@@ -453,14 +453,14 @@ church.data = [
 			{"n1": "天使", "n2": "邪鬼"},
 		],
 		"list": [
-			{"name": "ピクシー", "grade": 2, "rare": "★", "img": "img/pikushi.png", "no": 80, "prop":["-", "-", "-", "耐", "-", "- / 耐(防魔)", "弱"]},
-			{"name": "ジャックフロスト", "grade": 7, "rare": "★", "img": "img/jakkufurosuto.png", "no": 81, "prop":["-", "弱", "耐", "- / 耐(防魔)", "-", "-", "-"]},
-			{"name": "ジャックランタン", "grade": 13, "rare": "★", "img": "img/jakkurantan.png", "no": 82, "prop":["-", "耐", "弱", "-", "- / 耐(防魔)", "-", "-"]},
-			{"name": "ハイピクシー", "grade": 24, "rare": "★★", "img": "img/haipikushi.png", "no": 83, "prop":["-", "-", "-", "-", "耐", "- / 耐(防魔)", "-"]},
-			{"name": "ケルピー", "grade": 35, "rare": "★★", "img": "img/kerupi.png", "no": 84, "prop":["-", "-", "耐", "-", "弱", "-", "- / 耐(防魔)"]},
-			{"name": "シルキー", "grade": 42, "rare": "★★★", "img": "img/shiruki.png", "no": 85, "prop":["-", "弱", "無", "-", "- / 耐(防魔)", "-", "-"]},
+			{"name": "ピクシー", "grade": 2, "rare": "★", "img": "img/pixie.png", "no": 80, "prop":["-", "-", "-", "耐", "-", "- / 耐(防魔)", "弱"]},
+			{"name": "ジャックフロスト", "grade": 7, "rare": "★", "img": "img/jackfrost.png", "no": 81, "prop":["-", "弱", "耐", "- / 耐(防魔)", "-", "-", "-"]},
+			{"name": "ジャックランタン", "grade": 13, "rare": "★", "img": "img/jackolantern.png", "no": 82, "prop":["-", "耐", "弱", "-", "- / 耐(防魔)", "-", "-"]},
+			{"name": "ハイピクシー", "grade": 24, "rare": "★★", "img": "img/highpixie.png", "no": 83, "prop":["-", "-", "-", "-", "耐", "- / 耐(防魔)", "-"]},
+			{"name": "ケルピー", "grade": 35, "rare": "★★", "img": "img/kelpie.png", "no": 84, "prop":["-", "-", "耐", "-", "弱", "-", "- / 耐(防魔)"]},
+			{"name": "シルキー", "grade": 42, "rare": "★★★", "img": "img/silky.png", "no": 85, "prop":["-", "弱", "無", "-", "- / 耐(防魔)", "-", "-"]},
 			{"name": "セタンタ", "grade": 47, "rare": "★★★", "img": "img/setanta.png", "no": 86, "prop":["-", "-", "-", "弱 / 耐(防魔)", "無", "-", "弱"]},
-			{"name": "ティターニア", "grade": 62, "rare": "★★★★", "img": "img/thitania.png", "no": 87, "prop":["- / 耐(防魔)", "-", "-", "-", "-", "耐", "耐"]},
+			{"name": "ティターニア", "grade": 62, "rare": "★★★★", "img": "img/titania.png", "no": 87, "prop":["- / 耐(防魔)", "-", "-", "-", "-", "耐", "耐"]},
 			{"name": "オベロン", "grade": 67, "rare": "★★★★", "img": "img/oberon.png", "no": 88, "prop":["-", "-", "- / 耐(防魔)", "弱", "吸", "-", "-"]},
 		]
 	},
@@ -483,13 +483,13 @@ church.data = [
 			{"n1": "鬼女", "n2": "妖獣"},
 		],
 		"list": [
-			{"name": "メルコム", "grade": 4, "rare": "★", "img": "img/merukomu.png", "no": 89, "prop":["- / 耐(防魔)", "耐", "弱", "-", "弱", "弱", "耐"]},
-			{"name": "エリゴール", "grade": 10, "rare": "★", "img": "img/erigoru.png", "no": 90, "prop":["耐", "-", "-", "弱", "-", "- / 耐(防魔)", "無"]},
-			{"name": "デカラビア", "grade": 23, "rare": "★★", "img": "img/dekarabia.png", "no": 91, "prop":["-", "-", "- / 耐(防魔)", "-", "-", "弱", "耐"]},
-			{"name": "フォルネウス", "grade": 41, "rare": "★★★", "img": "img/foruneusu.png", "no": 92, "prop":["-", "-", "吸", "弱", "-", "- / 無(防魔)", "無"]},
+			{"name": "メルコム", "grade": 4, "rare": "★", "img": "img/melchom.png", "no": 89, "prop":["- / 耐(防魔)", "耐", "弱", "-", "弱", "弱", "耐"]},
+			{"name": "エリゴール", "grade": 10, "rare": "★", "img": "img/eligor.png", "no": 90, "prop":["耐", "-", "-", "弱", "-", "- / 耐(防魔)", "無"]},
+			{"name": "デカラビア", "grade": 23, "rare": "★★", "img": "img/decarabia.png", "no": 91, "prop":["-", "-", "- / 耐(防魔)", "-", "-", "弱", "耐"]},
+			{"name": "フォルネウス", "grade": 41, "rare": "★★★", "img": "img/forneus.png", "no": 92, "prop":["-", "-", "吸", "弱", "-", "- / 無(防魔)", "無"]},
 			{"name": "オセ", "grade": 54, "rare": "★★★", "img": "img/ose.png", "no": 93, "prop":["- / 無(防魔)", "-", "-", "-", "-", "-", "耐"]},
-			{"name": "ダンタリアン", "grade": 70, "rare": "★★★★", "img": "img/dantarian.png", "no": 94, "prop":["-", "耐", "耐", "弱", "無", "弱", "耐 / 反(防魔)"]},
-			{"name": "サマエル", "grade": 84, "rare": "★★★★★", "img": "img/samaeru.png", "no": 95, "prop":["-", "- / 無(防魔)", "-", "弱", "-", "反", "反"]},
+			{"name": "ダンタリアン", "grade": 70, "rare": "★★★★", "img": "img/dantalion.png", "no": 94, "prop":["-", "耐", "耐", "弱", "無", "弱", "耐 / 反(防魔)"]},
+			{"name": "サマエル", "grade": 84, "rare": "★★★★★", "img": "img/samael.png", "no": 95, "prop":["-", "- / 無(防魔)", "-", "弱", "-", "反", "反"]},
 		]
 	},
 	{
@@ -515,9 +515,9 @@ church.data = [
 			{"name": "モムノフ", "grade": 15, "rare": "★", "img": "img/momunofu.png", "no": 97, "prop":["耐", "-", "-", "-", "弱 / 耐(防魔)", "-", "-"]},
 			{"name": "オニ", "grade": 27, "rare": "★★", "img": "img/oni.png", "no": 98, "prop":["-", "-", "-", "弱", "- / 耐(防魔)", "-", "-"]},
 			{"name": "ヨモツイクサ", "grade": 41, "rare": "★★★", "img": "img/yomotsuikusa.png", "no": 99, "prop":["-", "-", "-", "-", "弱", "弱 / 耐(防魔)", "耐"]},
-			{"name": "シキオウジ", "grade": 49, "rare": "★★★", "img": "img/shikiouji.png", "no": 100, "prop":["無", "弱", "弱 / 耐(防魔)", "-", "-", "耐", "耐"]},
-			{"name": "ベルセルク", "grade": 54, "rare": "★★★", "img": "img/beruseruku.png", "no": 101, "prop":["無", "-", "- / 無(防魔)", "-", "弱", "-", "-"]},
-			{"name": "オンギョウキ", "grade": 68, "rare": "★★★★", "img": "img/ongyougi.png", "no": 102, "prop":["耐", "-", "耐", "-", "耐", "弱", "- / 無(防魔)"]},
+			{"name": "シキオウジ", "grade": 49, "rare": "★★★", "img": "img/sikiouji.png", "no": 100, "prop":["無", "弱", "弱 / 耐(防魔)", "-", "-", "耐", "耐"]},
+			{"name": "ベルセルク", "grade": 54, "rare": "★★★", "img": "img/berserk.png", "no": 101, "prop":["無", "-", "- / 無(防魔)", "-", "弱", "-", "-"]},
+			{"name": "オンギョウキ", "grade": 68, "rare": "★★★★", "img": "img/ongyouki.png", "no": 102, "prop":["耐", "-", "耐", "-", "耐", "弱", "- / 無(防魔)"]},
 		]
 	},
 	{
@@ -539,12 +539,12 @@ church.data = [
 			{"n1": "女神", "n2": "邪鬼"},
 		],
 		"list": [
-			{"name": "リャナンシー", "grade": 12, "rare": "★", "img": "img/ryananshi.png", "no": 103, "prop":["-", "-", "-", "-", "弱 / 耐(防魔)", "-", "-"]},
+			{"name": "リャナンシー", "grade": 12, "rare": "★", "img": "img/leanansidhe.png", "no": 103, "prop":["-", "-", "-", "-", "弱 / 耐(防魔)", "-", "-"]},
 			{"name": "ヨモツシコメ", "grade": 23, "rare": "★★", "img": "img/yomotsushikome.png", "no": 104, "prop":["-", "弱", "-", "-", "- / 耐(防魔)", "弱", "耐"]},
-			{"name": "ヤクシニー", "grade": 34, "rare": "★★", "img": "img/yakushini.png", "no": 105, "prop":["- / 耐(防魔)", "-", "-", "弱", "無", "-", "-"]},
-			{"name": "マーメイド", "grade": 42, "rare": "★★★", "img": "img/mameido.png", "no": 106, "prop":["-", "-", "耐 / 無(防魔)", "弱", "耐", "-", "-"]},
+			{"name": "ヤクシニー", "grade": 34, "rare": "★★", "img": "img/yakshini.png", "no": 105, "prop":["- / 耐(防魔)", "-", "-", "弱", "無", "-", "-"]},
+			{"name": "マーメイド", "grade": 42, "rare": "★★★", "img": "img/mermaid.png", "no": 106, "prop":["-", "-", "耐 / 無(防魔)", "弱", "耐", "-", "-"]},
 			{"name": "ダーキニー", "grade": 53, "rare": "★★★", "img": "img/dakini.png", "no": 107, "prop":["耐", "吸", "弱 / 耐(防魔)", "-", "-", "-", "-"]},
-			{"name": "ランダ", "grade": 67, "rare": "★★★★", "img": "img/randa.png", "no": 108, "prop":["反", "-", "-", "弱", "- / 無(防魔)", "-", "-"]},
+			{"name": "ランダ", "grade": 67, "rare": "★★★★", "img": "img/rangda.png", "no": 108, "prop":["反", "-", "-", "弱", "- / 無(防魔)", "-", "-"]},
 		]
 	},
 	{
@@ -573,13 +573,13 @@ church.data = [
 		],
 		"list": [
 			{"name": "モコイ", "grade": 5, "rare": "★", "img": "img/mokoi.png", "no": 109, "prop":["-", "-", "-", "耐", "弱", "-", "- / 耐(防魔)"]},
-			{"name": "ザントマン", "grade": 10, "rare": "★", "img": "img/zantoman.png", "no": 110, "prop":["-", "-", "- / 耐(防魔)", "弱", "耐", "-", "-"]},
-			{"name": "インキュバス", "grade": 21, "rare": "★★", "img": "img/inkyubasu.png", "no": 111, "prop":["-", "-", "- / 耐(防魔)", "弱", "耐", "-", "-"]},
-			{"name": "フォーモリア", "grade": 30, "rare": "★★", "img": "img/fomoria.png", "no": 112, "prop":["-", "弱", "耐", "-", "-", "- / 耐(防魔)", "-"]},
-			{"name": "キウン", "grade": 42, "rare": "★★★", "img": "img/kiun.png", "no": 113, "prop":["-", "-", "弱 / 耐(防魔)", "-", "-", "弱", "無"]},
-			{"name": "リリム", "grade": 47, "rare": "★★★", "img": "img/ririmu.png", "no": 114, "prop":["-", "-", "弱", "- / 無(防魔)", "無", "-", "-"]},
-			{"name": "サキュバス", "grade": 63, "rare": "★★★★", "img": "img/sakyubasu.png", "no": 115, "prop":["-", "耐", "無", "-", "-", "弱 / 耐(防魔)", "-"]},
-			{"name": "リリス", "grade": 80, "rare": "★★★★★", "img": "img/ririsu.png", "no": 116, "prop":["-", "耐", "耐", "吸", "弱", "弱 / 無(防魔)", "無"]},
+			{"name": "ザントマン", "grade": 10, "rare": "★", "img": "img/sandmann.png", "no": 110, "prop":["-", "-", "- / 耐(防魔)", "弱", "耐", "-", "-"]},
+			{"name": "インキュバス", "grade": 21, "rare": "★★", "img": "img/incubus.png", "no": 111, "prop":["-", "-", "- / 耐(防魔)", "弱", "耐", "-", "-"]},
+			{"name": "フォーモリア", "grade": 30, "rare": "★★", "img": "img/fomorians.png", "no": 112, "prop":["-", "弱", "耐", "-", "-", "- / 耐(防魔)", "-"]},
+			{"name": "キウン", "grade": 42, "rare": "★★★", "img": "img/kaiwan.png", "no": 113, "prop":["-", "-", "弱 / 耐(防魔)", "-", "-", "弱", "無"]},
+			{"name": "リリム", "grade": 47, "rare": "★★★", "img": "img/lilin.png", "no": 114, "prop":["-", "-", "弱", "- / 無(防魔)", "無", "-", "-"]},
+			{"name": "サキュバス", "grade": 63, "rare": "★★★★", "img": "img/sucubus.png", "no": 115, "prop":["-", "耐", "無", "-", "-", "弱 / 耐(防魔)", "-"]},
+			{"name": "リリス", "grade": 80, "rare": "★★★★★", "img": "img/lilith.png", "no": 116, "prop":["-", "耐", "耐", "吸", "弱", "弱 / 無(防魔)", "無"]},
 		]
 	},
 	{
@@ -594,12 +594,12 @@ church.data = [
 			{"n1": "神獣", "n2": "邪鬼"},
 		],
 		"list": [
-			{"name": "アブラクサス", "grade": 26, "rare": "★★", "img": "img/aburakusasu.png", "no": 117, "prop":["吸", "弱", "弱", "弱", "弱", "弱", "弱 / 無(防魔)"]},
-			{"name": "バフォメット", "grade": 41, "rare": "★★★", "img": "img/bafometto.png", "no": 118, "prop":["-", "-", "-", "-", "-", "弱 / 耐(防魔)", "無"]},
+			{"name": "アブラクサス", "grade": 26, "rare": "★★", "img": "img/abraxas.png", "no": 117, "prop":["吸", "弱", "弱", "弱", "弱", "弱", "弱 / 無(防魔)"]},
+			{"name": "バフォメット", "grade": 41, "rare": "★★★", "img": "img/baphomet.png", "no": 118, "prop":["-", "-", "-", "-", "-", "弱 / 耐(防魔)", "無"]},
 			{"name": "アラハバキ", "grade": 50, "rare": "★★★", "img": "img/arahabaki.png", "no": 119, "prop":["耐", "弱", "弱 / 無(防魔)", "弱", "弱", "耐", "耐"]},
-			{"name": "パズス", "grade": 62, "rare": "★★★★", "img": "img/pazusu.png", "no": 120, "prop":["-", "-", "弱", "-", "無", "- / 無(防魔)", "無"]},
-			{"name": "ギリメカラ", "grade": 67, "rare": "★★★★", "img": "img/girimekara.png", "no": 121, "prop":["反", "-", "-", "弱", "弱 / 耐(防魔)", "弱", "-"]},
-			{"name": "セト", "grade": 84, "rare": "★★★★★", "img": "img/seto.png", "no": 122, "prop":["-", "弱 / 耐(防魔)", "-", "無", "無", "-", "吸"]},
+			{"name": "パズス", "grade": 62, "rare": "★★★★", "img": "img/pazuzu.png", "no": 120, "prop":["-", "-", "弱", "-", "無", "- / 無(防魔)", "無"]},
+			{"name": "ギリメカラ", "grade": 67, "rare": "★★★★", "img": "img/girimekhala.png", "no": 121, "prop":["反", "-", "-", "弱", "弱 / 耐(防魔)", "弱", "-"]},
+			{"name": "セト", "grade": 84, "rare": "★★★★★", "img": "img/set.png", "no": 122, "prop":["-", "弱 / 耐(防魔)", "-", "無", "無", "-", "吸"]},
 		]
 	},
 	{
@@ -622,13 +622,13 @@ church.data = [
 			{"n1": "魔獣", "n2": "邪鬼"},
 		],
 		"list": [
-			{"name": "チャグリン", "grade": 4, "rare": "★", "img": "img/chagurin.png", "no": 123, "prop":["-", "弱", "-", "耐", "-", "-", "- / 耐(防魔)"]},
-			{"name": "バイコーン", "grade": 9, "rare": "★", "img": "img/baikon.png", "no": 124, "prop":["-", "-", "-", "-", "弱", "- / 耐(防魔)", "無"]},
-			{"name": "ライジュウ", "grade": 20, "rare": "★★", "img": "img/raijyuu.png", "no": 125, "prop":["-", "-", "-", "耐 / 無(防魔)", "弱", "-", "-"]},
+			{"name": "チャグリン", "grade": 4, "rare": "★", "img": "img/chagrin.png", "no": 123, "prop":["-", "弱", "-", "耐", "-", "-", "- / 耐(防魔)"]},
+			{"name": "バイコーン", "grade": 9, "rare": "★", "img": "img/bicorn.png", "no": 124, "prop":["-", "-", "-", "-", "弱", "- / 耐(防魔)", "無"]},
+			{"name": "ライジュウ", "grade": 20, "rare": "★★", "img": "img/raijyu.png", "no": 125, "prop":["-", "-", "-", "耐 / 無(防魔)", "弱", "-", "-"]},
 			{"name": "ヌエ", "grade": 25, "rare": "★★", "img": "img/nue.png", "no": 126, "prop":["- / 耐(防魔)", "-", "-", "耐", "弱", "-", "-"]},
-			{"name": "モスマン", "grade": 41, "rare": "★★★", "img": "img/mosuman.png", "no": 127, "prop":["-", "- / 無(防魔)", "-", "耐", "弱", "-", "-"]},
-			{"name": "ピアレイ", "grade": 46, "rare": "★★★", "img": "img/piarei.png", "no": 128, "prop":["-", "弱", "耐", "-", "-", "弱 / 耐(防魔)", "-"]},
-			{"name": "フェンリル", "grade": 61, "rare": "★★★★", "img": "img/fenriru.png", "no": 129, "prop":["-", "弱", "吸", "耐", "弱 / 耐(防魔)", "-", "-"]},
+			{"name": "モスマン", "grade": 41, "rare": "★★★", "img": "img/mothman.png", "no": 127, "prop":["-", "- / 無(防魔)", "-", "耐", "弱", "-", "-"]},
+			{"name": "ピアレイ", "grade": 46, "rare": "★★★", "img": "img/pialay.png", "no": 128, "prop":["-", "弱", "耐", "-", "-", "弱 / 耐(防魔)", "-"]},
+			{"name": "フェンリル", "grade": 61, "rare": "★★★★", "img": "img/fenrir.png", "no": 129, "prop":["-", "弱", "吸", "耐", "弱 / 耐(防魔)", "-", "-"]},
 		]
 	},
 	{
@@ -646,12 +646,12 @@ church.data = [
 			{"n1": "邪神", "n2": "幽鬼"},
 		],
 		"list": [
-			{"name": "スライム", "grade": 1, "rare": "★", "img": "img/suraimu.png", "no": 130, "prop":["弱", "弱", "弱", "弱", "弱 / 耐(防魔)", "弱", "-"]},
-			{"name": "ファントム", "grade": 10, "rare": "★", "img": "img/fantomu.png", "no": 131, "prop":["耐", "-", "-", "- / 耐(防魔)", "弱", "弱", "無"]},
-			{"name": "ブロブ", "grade": 20, "rare": "★★", "img": "img/burobu.png", "no": 132, "prop":["耐", "-", "弱", "-", "- / 耐(防魔)", "弱", "無"]},
-			{"name": "ブラックウーズ", "grade": 25, "rare": "★★", "img": "img/burakkuuzu.png", "no": 133, "prop":["耐", "- / 無(防魔)", "-", "弱", "-", "弱", "無"]},
-			{"name": "シャドウ", "grade": 35, "rare": "★★", "img": "img/shadou.png", "no": 134, "prop":["耐", "-", "- / 耐(防魔)", "-", "弱", "弱", "無"]},
-			{"name": "マッドガッサー", "grade": 45, "rare": "★★★", "img": "img/maddogassa.png", "no": 135, "prop":["-", "-", "-", "-", "-", "弱", "耐 / 無(防魔)"]},
+			{"name": "スライム", "grade": 1, "rare": "★", "img": "img/slime.png", "no": 130, "prop":["弱", "弱", "弱", "弱", "弱 / 耐(防魔)", "弱", "-"]},
+			{"name": "ファントム", "grade": 10, "rare": "★", "img": "img/phantom.png", "no": 131, "prop":["耐", "-", "-", "- / 耐(防魔)", "弱", "弱", "無"]},
+			{"name": "ブロブ", "grade": 20, "rare": "★★", "img": "img/blob.png", "no": 132, "prop":["耐", "-", "弱", "-", "- / 耐(防魔)", "弱", "無"]},
+			{"name": "ブラックウーズ", "grade": 25, "rare": "★★", "img": "img/blackooze.png", "no": 133, "prop":["耐", "- / 無(防魔)", "-", "弱", "-", "弱", "無"]},
+			{"name": "シャドウ", "grade": 35, "rare": "★★", "img": "img/shadow.png", "no": 134, "prop":["耐", "-", "- / 耐(防魔)", "-", "弱", "弱", "無"]},
+			{"name": "マッドガッサー", "grade": 45, "rare": "★★★", "img": "img/madgasser.png", "no": 135, "prop":["-", "-", "-", "-", "-", "弱", "耐 / 無(防魔)"]},
 		]
 	},
 	{
@@ -668,14 +668,14 @@ church.data = [
 			{"n1": "幻魔", "n2": "邪鬼"},
 		],
 		"list": [
-			{"name": "オーカス", "grade": 46, "rare": "★★★", "img": "img/okasu.png", "no": 136, "prop":["耐", "-", "弱 / 無(防魔)", "-", "-", "弱", "-"]},
-			{"name": "アバドン", "grade": 60, "rare": "★★★★", "img": "img/abadon.png", "no": 137, "prop":["- / 無(防魔)", "反", "-", "弱", "-", "-", "-"]},
-			{"name": "キングフロスト", "grade": 64, "rare": "★★★★", "img": "img/KingFrost.png", "no": 172, "prop":["-", "弱 / 耐(防魔)", "無", "-", "-", "耐", "-"]},
-			{"name": "ベルゼブブ", "grade": 68, "rare": "★★★★", "img": "img/berusebubu.png", "no": 138, "prop":["-", "-", "-", "耐", "耐", "無 / 反(防魔)", "無"]},
-			{"name": "ロキ", "grade": 75, "rare": "★★★★", "img": "img/roki.png", "no": 139, "prop":["-", "-", "無", "-", "耐", "弱 / 耐(防魔)", "耐"]},
-			{"name": "スルト", "grade": 83, "rare": "★★★★★", "img": "img/suruto.png", "no": 140, "prop":["-", "吸", "弱 / 無(防魔)", "-", "-", "-", "-"]},
+			{"name": "オーカス", "grade": 46, "rare": "★★★", "img": "img/orcus.png", "no": 136, "prop":["耐", "-", "弱 / 無(防魔)", "-", "-", "弱", "-"]},
+			{"name": "アバドン", "grade": 60, "rare": "★★★★", "img": "img/abaddon.png", "no": 137, "prop":["- / 無(防魔)", "反", "-", "弱", "-", "-", "-"]},
+			{"name": "キングフロスト", "grade": 64, "rare": "★★★★", "img": "img/kingfrost.png", "no": 172, "prop":["-", "弱 / 耐(防魔)", "無", "-", "-", "耐", "-"]},
+			{"name": "ベルゼブブ", "grade": 68, "rare": "★★★★", "img": "img/beelzebub.png", "no": 138, "prop":["-", "-", "-", "耐", "耐", "無 / 反(防魔)", "無"]},
+			{"name": "ロキ", "grade": 75, "rare": "★★★★", "img": "img/loki.png", "no": 139, "prop":["-", "-", "無", "-", "耐", "弱 / 耐(防魔)", "耐"]},
+			{"name": "スルト", "grade": 83, "rare": "★★★★★", "img": "img/surtr.png", "no": 140, "prop":["-", "吸", "弱 / 無(防魔)", "-", "-", "-", "-"]},
 			{"name": "マーラ", "grade": 90, "rare": "★★★★★", "img": "img/mara.png", "no": 141, "prop":["-", "-", "弱 / 無(防魔)", "吸", "-", "耐", "耐"]},
-			{"name": "ルシファー", "grade": 98, "rare": "★★★★★", "img": "img/rushifa.png", "no": 142, "prop":["耐", "-", "-", "-", "-", "弱 / 吸(防魔)", "反"]},
+			{"name": "ルシファー", "grade": 98, "rare": "★★★★★", "img": "img/lucifer.png", "no": 142, "prop":["耐", "-", "-", "-", "-", "弱 / 吸(防魔)", "反"]},
 		]
 	},
 
@@ -705,9 +705,9 @@ church.data = [
 			{"name": "オバリヨン", "grade": 7, "rare": "★", "img": "img/obariyon.png", "no": 144, "prop":["-", "- / 耐(防魔)", "弱", "耐", "-", "弱", "無"]},
 			{"name": "モウリョウ", "grade": 20, "rare": "★★", "img": "img/mouryou.png", "no": 145, "prop":["-", "-", "-", "-", "-", "弱", "無 / 反(防魔)"]},
 			{"name": "ピシャーチャ", "grade": 26, "rare": "★★", "img": "img/pishacha.png", "no": 146, "prop":["-", "弱", "- / 耐(防魔)", "-", "無", "弱", "耐"]},
-			{"name": "レギオン", "grade": 34, "rare": "★★", "img": "img/region.png", "no": 147, "prop":["-", "- / 耐(防魔)", "-", "弱", "-", "弱", "耐"]},
-			{"name": "ラフィン・スカル", "grade": 44, "rare": "★★★", "img": "img/rafinsukaru.png", "no": 148, "prop":["-", "吸", "弱", "-", "- / 耐(防魔)", "弱", "無"]},
-			{"name": "ヴェータラ", "grade": 55, "rare": "★★★", "img": "img/vetara.png", "no": 149, "prop":["-", "弱 / 耐(防魔)", "-", "-", "-", "弱", "無"]},
+			{"name": "レギオン", "grade": 34, "rare": "★★", "img": "img/legion.png", "no": 147, "prop":["-", "- / 耐(防魔)", "-", "弱", "-", "弱", "耐"]},
+			{"name": "ラフィン・スカル", "grade": 44, "rare": "★★★", "img": "img/laughinskull.png", "no": 148, "prop":["-", "吸", "弱", "-", "- / 耐(防魔)", "弱", "無"]},
+			{"name": "ヴェータラ", "grade": 55, "rare": "★★★", "img": "img/vetala.png", "no": 149, "prop":["-", "弱 / 耐(防魔)", "-", "-", "-", "弱", "無"]},
 		]
 	},
 
@@ -748,7 +748,7 @@ church.data = [
 		"comb": [
 		],
 		"list": [
-			{"name": "トリック・ランタン", "grade": 65, "rare": "★★★★", "img": "img/jakkurantan.png", "no": 1082,
+			{"name": "トリック・ランタン", "grade": 65, "rare": "★★★★", "img": "img/jackolantern.png", "no": 1082,
 				 "prop":["-", "吸", "弱", "-", "-", "-", "-"]},
 		]
 	},
@@ -756,13 +756,13 @@ church.data = [
 	{
 		"type": "魔人",
 		"list": [
-			{"name": "ホワイトライダー", "grade": 74, "rare": "★★★★", "img": "img/howaitoraida.png", "no": 150, 
+			{"name": "ホワイトライダー", "grade": 74, "rare": "★★★★", "img": "img/whiterider.png", "no": 150, 
 				"prop":["-", "-", "-", "吸", "弱 / 無(防魔)", "耐", "耐"]},
- 			{"name": "ヘルズエンジェル", "grade": 77, "rare": "★★★★★", "img": "img/HellsAngel.png", "no": 181,
+ 			{"name": "ヘルズエンジェル", "grade": 77, "rare": "★★★★★", "img": "img/hellsangel.png", "no": 181,
 				"prop":["-", "反", "-", "-", "耐",  "弱 / 反(防魔)", "-"]},
-			{"name": "アリス", "grade": 89, "rare": "★★★★★", "img": "img/arisu.png", "no": 151, 
+			{"name": "アリス", "grade": 89, "rare": "★★★★★", "img": "img/alice.png", "no": 151, 
 				"prop":["-", "-", "-", "-", "-", "弱 / 反(防魔)", "反"]},
-			{"name": "トランぺッター", "grade": 94, "rare": "★★★★★", "img": "img/toranpetta.png", "no": 152, 
+			{"name": "トランぺッター", "grade": 94, "rare": "★★★★★", "img": "img/trunpeter.png", "no": 152, 
 				"prop":["- / 耐(防魔)", "-", "-", "-", "-", "無", "無"]},
 			{"name": "マザーハーロット", "grade": 95, "rare": "★★★★★", "img": "img/motherharlot.png", "no": 190, 
 				"prop":["無 / 吸(防魔)", "-", "-", "吸", "弱", "耐", "耐"]},
@@ -771,11 +771,11 @@ church.data = [
 	{
 		"type": "英雄",
 		"list": [
-			{"name": "ジークフリード", "grade": 83, "rare": "★★★★★", "img": "img/jikufurido.png", "no": 153, 
+			{"name": "ジークフリード", "grade": 83, "rare": "★★★★★", "img": "img/siegfried.png", "no": 153, 
 				"prop":["吸", "-", "-", "-", "- / 耐(防魔)", "-", "-"]},
-			{"name": "ジャンヌ・ダルク", "grade": 78, "rare": "★★★★", "img": "img/JeanneDArc.png", "no": 170, 
+			{"name": "ジャンヌ・ダルク", "grade": 78, "rare": "★★★★", "img": "img/jeannedarc.png", "no": 170, 
 				"prop":["-", "弱 / 反(防)", "耐", "耐", "耐", "-", "-"]},
-			{"name": "コウテイ", "grade": 88, "rare": "★★★★★", "img": "img/Kote.png", "no": 171, 
+			{"name": "コウテイ", "grade": 88, "rare": "★★★★★", "img": "img/koutei.png", "no": 171, 
 				"prop":["-", "耐", "耐", "耐", "耐", "- / 反(防魔)", "-"]},
 			{"name": "ヨシツネ", "grade": 97, "rare": "★★★★★", "img": "img/yoshitsune.png", "no": 154, 
 				"prop":["耐 / 吸(防魔)", "-", "-", "-", "-", "無", "無"]},
@@ -784,11 +784,11 @@ church.data = [
 	{
 		"type": "珍獣",
 		"list": [
-			{"name": "チュパカブラ", "grade": 15, "rare": "★", "img": "img/Chupacabra.png", "no": 156,
+			{"name": "チュパカブラ", "grade": 15, "rare": "★", "img": "img/chupacabra.png", "no": 156,
 				"prop":["-", "-", "-", "弱 / 耐(防魔)", "-", "-", "-"],
 				"union":[130, 89, 123],
 				"price":100},
-			{"name": "イナバノシロウサギ", "grade": 41, "rare": "★★★", "img": "img/InabanoShirousagi.png", "no": 157,
+			{"name": "イナバノシロウサギ", "grade": 41, "rare": "★★★", "img": "img/inabasirousagi.png", "no": 157,
 				"prop":["-", "弱 / 無(防魔)", "-", "-", "-", "-", "-"],
 				"union":[76, 112, 20],
 				"price":5000},
@@ -797,11 +797,11 @@ church.data = [
 	{
 		"type": "怪異",
 		"list": [
-			{"name": "かみおとこ", "grade": 25, "rare": "★★", "img": "img/Kamiotoko.png", "no": 155,
+			{"name": "かみおとこ", "grade": 25, "rare": "★★", "img": "img/kamiotoko.png", "no": 155,
 				"prop":["-", "-", "-", "-", "- / 無(防魔)", "弱", "反"],
 				"union":[131, 144, 145],
 				"price":500},
-			{"name": "カシマレイコ", "grade": 42, "rare": "★★★", "img": "img/suraimu.png", "no": 193,
+			{"name": "カシマレイコ", "grade": 42, "rare": "★★★", "img": "img/slime.png", "no": 193,
 				"prop":["-", "弱", "-", "-", "-", "弱", "吸"],
 				"union":[1, 158, 47],
 				"price":0},
@@ -811,15 +811,15 @@ church.data = [
 	{
 		"type": "秘神",
 		"list": [
-			{"name": "カンバリ", "grade": 30, "rare": "★★", "img": "img/Kambari.png", "no": 158,
+			{"name": "カンバリ", "grade": 30, "rare": "★★", "img": "img/kanbari.png", "no": 158,
 				"prop":["弱", "- / 耐(防魔)", "-", "-", "-", "耐", "弱"],
 				"union":[75, 62, 104, 30],
 				"price":1000},
-			{"name": "キンマモン", "grade": 55, "rare": "★★★", "img": "img/Kinmamon.png", "no": 159,
+			{"name": "キンマモン", "grade": 55, "rare": "★★★", "img": "img/kinmamon.png", "no": 159,
 				"prop":["-", "無", "弱", "-", "-", "耐", "耐 / 無(防魔)"],
 				"union":[24, 147, 127, 119],
 				"price":10000},
-			{"name": "カーマ", "grade": 75, "rare": "★★★★", "img": "img/Kāmadeva.png", "no": 160,
+			{"name": "カーマ", "grade": 75, "rare": "★★★★", "img": "img/kama.png", "no": 160,
 				"prop":["耐", "弱 / 反(防魔)", "-", "-", "-", "耐", "-"],
 				"union":[105, 14, 107, 108],
 				"price":200000},
@@ -828,11 +828,11 @@ church.data = [
 	{
 		"type": "狂神",
 		"list": [
-			{"name": "アティス", "grade": 65, "rare": "★★★★", "img": "img/Attis.png", "no": 167,
+			{"name": "アティス", "grade": 65, "rare": "★★★★", "img": "img/attis.png", "no": 167,
 				"prop":["耐", "-", "- / 無(防魔)", "-", "-", "-", "-"],
 				"union":[118, 7, 43, 101],
 				"price":200000},
-			{"name": "ディオニュソス", "grade": 64, "rare": "★★★★", "img": "img/suraimu.png", "no": 192,
+			{"name": "ディオニュソス", "grade": 64, "rare": "★★★★", "img": "img/slime.png", "no": 192,
 				"prop":["-", "無", "弱", "無", "-", "-", "-"],
 				"union":[36, 21, 9],
 				"price":0},
@@ -841,7 +841,7 @@ church.data = [
 	{
 		"type": "威霊",
 		"list": [
-			{"name": "アリラト", "grade": 85, "rare": "★★★★★", "img": "img/Al-Lat.png", "no": 168,
+			{"name": "アリラト", "grade": 85, "rare": "★★★★★", "img": "img/alilat.png", "no": 168,
 				"prop":["耐 / 無(防魔)", "-", "-", "-", "-", "耐", "耐"],
 				"union":[41, 42, 2, 3],
 				"price":500000},
