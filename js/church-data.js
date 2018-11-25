@@ -1,9 +1,9 @@
 'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2018-11-14",
+		"Last modified" : "2018-11-25",
 		"Last maintainer" : "wim-lab",
-		"Game Version" : "1.7.2 (イザナミ実装)",
+		"Game Version" : "1.7.2",
 		"OneLiner" : "(Game Version 1.7.2 対応)", // 検索画面に表示される
 	};
 };
