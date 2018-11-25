@@ -90,6 +90,9 @@
         text-decoration:none;
         transition:all .2s
     }
+    header li a.moon{
+        opacity:1;
+    }
     header li a:hover{
         opacity:1
     }
@@ -604,6 +607,14 @@
 
 a {
 text-decoration: none;
+}
+
+h1.moon {
+  margin: 10px;
+}
+
+div.calendar {
+  margin: 10px;
 }
 
 /*
