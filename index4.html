@@ -26,15 +26,25 @@ crossorigin="anonymous"></script>
 <script src="js/d2-view.js"></script>
 <script src="js/scrifice-search2.js"></script>
 <script src="js/daemon-disp.js"></script>
+
 <script type="text/javascript">
 window.onload = function() {
+	InitializeMoon();
+	LunarPhaseCheck();
 	var stat = dView[mode].show();
 }
 </script>
+
+<script src="js/moon.js"></script>
+<script type="text/javascript">
+	setInterval('LunarPhaseCheck()',1000);
+</script>
+
 <header>
 	<h1>「〇〇は何の素材になるか」</h1>
 	<nav>
 		<ul>
+			<li><a href="./moon.html" id="Lunar phase" class="moon"></a></li>
 			<li><a href="./index.html"><img src="img/ic-index.png" alt="">〇〇を作るには</a></li>
 			<li><a href="index2.html"><img src="img/ic-index2.png" alt="">〇〇は何の素材になるか</a></li>
 			<li><a href="./index3.html"><img src="img/ic-index.png" alt="">〇〇を作るには(一覧から選択)</a></li>
@@ -42,7 +52,7 @@ window.onload = function() {
       <li><span><a href = 
     'https://github.com/wim-lab/d2/blob/master/README.md' target="_blank"
          ><img src="img/ic-gh.png" alt="GitHub">このデータ改訂版について</a></li>
- 		</ul>
+		</ul>
   </nav>
 </header>
 

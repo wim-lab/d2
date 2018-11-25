@@ -26,10 +26,21 @@ crossorigin="anonymous"></script>
 <script src="js/d2-view.js"></script>
 <script src="js/scrifice-search.js"></script>
 <script src="js/daemon-disp.js"></script>
+
+<script src="js/moon.js"></script>
+<script type="text/javascript">
+window.onload = function() {
+	InitializeMoon();
+	LunarPhaseCheck();
+}
+setInterval('LunarPhaseCheck()',1000);
+</script>
+
 <header>
 	<h1>「〇〇は何の素材になるか」</h1>
 	<nav>
 		<ul>
+			<li><a href="./moon.html" id="Lunar phase" class="moon"></a></li>
 			<li><a href="./index.html"><img src="img/ic-index.png" alt="">〇〇を作るには</a></li>
 			<li><span><img src="img/ic-index2.png" alt="">〇〇は何の素材になるか</span></li>
 			<li><a href="./index3.html"><img src="img/ic-index.png" alt="">〇〇を作るには(一覧から選択)</a></li>

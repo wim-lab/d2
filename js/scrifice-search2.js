@@ -14,7 +14,7 @@ dView.Status.disp[mode] = [
 	"get1", "get2", "get3", "get4", "get5",
 ];
 dView[mode].show = function(a) {
-	var s;
+	var s = "";
 	var stat = {"name":"", "no":0, "mode":mode, "titile":"", "hide":false};
 	if (null == a){
 		stat.title = "〇〇は何の素材になるか";
