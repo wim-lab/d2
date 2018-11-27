@@ -446,8 +446,11 @@
         font-size:var(--font12);
         text-align:center
     }
-    #result ul li:nth-child(2){
+    #result ul li{
         margin-left:10px
+    }
+    #result ul li:last-child{
+        margin-left:0px
     }
     .summon , .scrifice{
         cursor:pointer
