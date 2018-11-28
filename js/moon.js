@@ -94,6 +94,13 @@ function FullMoonCalendar() {
 	var FullMoonTime = new Date(NextFullMoonTime.getTime());
 	var msg ='<div class="calendar">満月予報';
 	
+	if( CheckTime.getDate() != FullMoonTime.getDate() ) {
+		var FullMoonYear = CheckTime.getFullYear();
+		var FullMoonMonth = AddZero(CheckTime.getMonth()+1);
+		var FullMoonDate = AddZero(CheckTime.getDate());
+		msg += "<br>" + FullMoonYear + "/" + FullMoonMonth + "/" + FullMoonDate;
+		CheckTime.setDate( FullMoonTime.getDate());
+	}
 	while ( CheckTime.getMonth() == FullMoonTime.getMonth() ) {
 		var FullMoonYear = FullMoonTime.getFullYear();
 		var FullMoonMonth = AddZero(FullMoonTime.getMonth()+1);
