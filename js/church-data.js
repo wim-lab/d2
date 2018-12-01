@@ -62,7 +62,7 @@ church.data = [
 			{"name": "サラスヴァティ", "grade": 69, "rare": "★★★★", "img": "img/saraswati.png", "no": 10, "prop":["-", "弱", "無 / 反(防魔)", "-", "-", "-", "弱"]},
 			{"name": "イシュタル", "grade": 82, "rare": "★★★★★", "img": "img/ishtar.png", "no": 11, "prop":["-", "-", "-", "無", "弱 / 無(防魔)", "無", "弱"]},
 			{"name": "ラクシュミ", "grade": 85, "rare": "★★★★★", "img": "img/lakshmi.png", "no": 12, "prop":["-", "-", "-", "-", "弱 / 無(防魔)", "耐", "無"]},
-			{"name": "イザナミ", "grade": 89, "rare": "★★★★★", "img": "img/slime.png", "no": 191, "prop":["-", "弱", "無 / 反(防魔)", "-", "-", "耐", "吸"]},
+			{"name": "イザナミ", "grade": 89, "rare": "★★★★★", "img": "img/izanami.png", "no": 191, "prop":["-", "弱", "無 / 反(防魔)", "-", "-", "耐", "吸"]},
 		]
 	},
 
@@ -801,7 +801,7 @@ church.data = [
 				"prop":["-", "-", "-", "-", "- / 無(防魔)", "弱", "反"],
 				"union":[131, 144, 145],
 				"price":500},
-			{"name": "カシマレイコ", "grade": 42, "rare": "★★★", "img": "img/slime.png", "no": 193,
+			{"name": "カシマレイコ", "grade": 42, "rare": "★★★", "img": "img/kashimareiko.png", "no": 192,
 				"prop":["-", "弱", "-", "-", "-", "弱", "吸"],
 				"union":[1, 158, 47],
 				"price":0},
@@ -832,7 +832,7 @@ church.data = [
 				"prop":["耐", "-", "- / 無(防魔)", "-", "-", "-", "-"],
 				"union":[118, 7, 43, 101],
 				"price":200000},
-			{"name": "ディオニュソス", "grade": 64, "rare": "★★★★", "img": "img/slime.png", "no": 192,
+			{"name": "ディオニュソス", "grade": 64, "rare": "★★★★", "img": "img/dionysus.png", "no": 193,
 				"prop":["-", "無", "弱", "無", "-", "-", "-"],
 				"union":[36, 21, 9],
 				"price":0},
