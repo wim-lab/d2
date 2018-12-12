@@ -750,13 +750,13 @@ church.data = [
 		"list": [
 			{"name": "ヘル", "grade": 60, "rare": "★★★★", "img": "img/slime.png", "no": 1001,
 				 "prop":["-", "弱", "無", "-", "-", "-", "無"]},
-			{"name": "チェルノボグ", "grade": 64, "rare": "★★★★", "img": "img/slime.png", "no": 1001,
+			{"name": "チェルノボグ", "grade": 64, "rare": "★★★★", "img": "img/slime.png", "no": 1002,
 				 "prop":["-", "-", "-", "-", "-", "弱", "無"]},
-			{"name": "ペルセポネー", "grade": 72, "rare": "★★★★", "img": "img/slime.png", "no": 1001,
+			{"name": "ペルセポネー", "grade": 72, "rare": "★★★★", "img": "img/slime.png", "no": 1003,
 				 "prop":["-", "-", "無", "弱", "-", "-", "無"]},
-			{"name": "ネルガル", "grade": 82, "rare": "★★★★★", "img": "img/slime.png", "no": 1001,
+			{"name": "ネルガル", "grade": 82, "rare": "★★★★★", "img": "img/slime.png", "no": 1004,
 				 "prop":["-", "耐", "弱", "-", "-", "耐", "反"]},
-			{"name": "モト", "grade": 91, "rare": "★★★★★", "img": "img/slime.png", "no": 1001,
+			{"name": "モト", "grade": 91, "rare": "★★★★★", "img": "img/slime.png", "no": 1005,
 				 "prop":["耐", "耐", "-", "弱", "反", "-", "反"]},
 		]
 	},
