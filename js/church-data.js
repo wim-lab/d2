@@ -1,10 +1,10 @@
 'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2018-11-25",
+		"Last modified" : "2018-12-12",
 		"Last maintainer" : "wim-lab",
-		"Game Version" : "1.7.2",
-		"OneLiner" : "(Game Version 1.7.2 イザナミ対応)", // 検索画面に表示される
+		"Game Version" : "1.8.0",
+		"OneLiner" : "(Game Version 1.8.0)", // 検索画面に表示される
 	};
 };
 
@@ -741,6 +741,23 @@ church.data = [
 				"no": 188, "prop":["無 / 吸(防魔)", "-", "-", "-", "弱", "弱", "-", ]},
 			{"name": "じゃあくフロスト", "grade": 80, "rare": "★★★★★", "img": "img/blackfrost.png",
 				"no": 189, "prop":["-", "耐 / 無(防魔)", "無", "-", "-", "弱", "無", ]},
+		]
+	},
+	{
+		"type": "死神",
+		"comb": [
+		],
+		"list": [
+			{"name": "ヘル", "grade": 60, "rare": "★★★★", "img": "img/slime.png", "no": 1001,
+				 "prop":["-", "弱", "無", "-", "-", "-", "無"]},
+			{"name": "チェルノボグ", "grade": 64, "rare": "★★★★", "img": "img/slime.png", "no": 1001,
+				 "prop":["-", "-", "-", "-", "-", "弱", "無"]},
+			{"name": "ペルセポネー", "grade": 72, "rare": "★★★★", "img": "img/slime.png", "no": 1001,
+				 "prop":["-", "-", "無", "弱", "-", "-", "無"]},
+			{"name": "ネルガル", "grade": 82, "rare": "★★★★★", "img": "img/slime.png", "no": 1001,
+				 "prop":["-", "耐", "弱", "-", "-", "耐", "反"]},
+			{"name": "モト", "grade": 91, "rare": "★★★★★", "img": "img/slime.png", "no": 1001,
+				 "prop":["耐", "耐", "-", "弱", "反", "-", "反"]},
 		]
 	},
 	{
