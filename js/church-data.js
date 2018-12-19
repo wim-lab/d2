@@ -465,6 +465,13 @@ church.data = [
 		]
 	},
 	{
+		"type": "イベント限定の妖精",
+		"list": [
+			{"name": "トリック・ランタン", "grade": 65, "rare": "★★★★", "img": "img/jackolantern.png", "no": 1082,
+				 "prop":["-", "吸", "弱", "-", "-", "-", "-"]},
+		]
+	},
+	{
 		"type": "堕天使",
 		"comb": [
 			{"n1": "大天使", "n2": "魔神"},
@@ -743,32 +750,6 @@ church.data = [
 				"no": 189, "prop":["-", "耐 / 無(防魔)", "無", "-", "-", "弱", "無", ]},
 		]
 	},
-	{
-		"type": "死神",
-		"comb": [
-		],
-		"list": [
-			{"name": "ヘル", "grade": 60, "rare": "★★★★", "img": "img/slime.png", "no": 1001,
-				 "prop":["-", "弱", "無 / 反(防魔)", "-", "-", "-", "無"]},
-			{"name": "チェルノボグ", "grade": 64, "rare": "★★★★", "img": "img/slime.png", "no": 1002,
-				 "prop":["-", "-", "- / 無(防魔)", "-", "-", "弱", "無"]},
-			{"name": "ペルセポネー", "grade": 72, "rare": "★★★★", "img": "img/slime.png", "no": 1003,
-				 "prop":["-", "-", "無", "弱", "-", "-", "無 / 吸(防魔)"]},
-			{"name": "ネルガル", "grade": 82, "rare": "★★★★★", "img": "img/slime.png", "no": 1004,
-				 "prop":["-", "耐", "弱", "-", "-", "耐 / 無(防魔)", "反"]},
-			{"name": "モト", "grade": 91, "rare": "★★★★★", "img": "img/slime.png", "no": 1005,
-				 "prop":["耐 / 無(防魔)", "耐", "-", "弱", "反", "-", "反"]},
-		]
-	},
-	{
-		"type": "イベント限定の妖精",
-		"comb": [
-		],
-		"list": [
-			{"name": "トリック・ランタン", "grade": 65, "rare": "★★★★", "img": "img/jackolantern.png", "no": 1082,
-				 "prop":["-", "吸", "弱", "-", "-", "-", "-"]},
-		]
-	},
 /* END_OF_NISHIN_GATTAI */
 	{
 		"type": "魔人",
@@ -824,7 +805,6 @@ church.data = [
 				"price":0},
 		],
 	},
-
 	{
 		"type": "秘神",
 		"list": [
@@ -863,6 +843,25 @@ church.data = [
 				"union":[41, 42, 2, 3],
 				"price":500000},
 		],
+	},
+	{
+		"type": "死神",
+		"list": [
+			{"name": "ヘル", "grade": 60, "rare": "★★★★", "img": "img/slime.png", "no": 194,
+				 "prop":["-", "弱", "無", "-", "-", "-", "無"]},
+			{"name": "チェルノボグ", "grade": 64, "rare": "★★★★", "img": "img/slime.png", "no": 195,
+				 "prop":["-", "-", "-", "-", "-", "弱", "無"]},
+			{"name": "ペルセポネー", "grade": 72, "rare": "★★★★", "img": "img/slime.png", "no": 1966,
+				 "prop":["-", "-", "無", "弱", "-", "-", "無"]},
+			{"name": "オルクス", "grade": 80, "rare": "★★★★★", "img": "img/slime.png", "no": 199,
+				 "prop":["耐 / 無(防魔)", "弱", "耐", "弱", "耐", "-", "無"]},
+			{"name": "ネルガル", "grade": 82, "rare": "★★★★★", "img": "img/slime.png", "no": 197,
+				 "prop":["-", "耐", "弱", "-", "-", "耐", "反"]},
+			{"name": "イシュタム", "grade": 84, "rare": "★★★★★", "img": "img/slime.png", "no": 200,
+				 "prop":["-", "-", "-", "-", "-", "弱 / 無(防魔)", "反"]},
+			{"name": "モト", "grade": 91, "rare": "★★★★★", "img": "img/slime.png", "no": 198,
+				 "prop":["耐", "耐", "-", "弱", "反", "-", "反"]},
+		]
 	},
 ];
 // vim:ts=4:sw=4:tw=78:fenc=utf-8:ff=unix:ft=javascript:noexpandtab:nolist
