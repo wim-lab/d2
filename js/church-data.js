@@ -466,7 +466,11 @@ church.data = [
 	},
 	{
 		"type": "イベント限定の妖精",
+		"comb": [
+		],
 		"list": [
+			{"name": "おてつだいフロスト", "grade": 63, "rare": "★★★★", "img": "img/jackfrost.png", "no": 1081,
+				 "prop":["-", "弱", "吸", "-", "-", "-", "-"]},
 			{"name": "トリック・ランタン", "grade": 65, "rare": "★★★★", "img": "img/jackolantern.png", "no": 1082,
 				 "prop":["-", "吸", "弱", "-", "-", "-", "-"]},
 		]
