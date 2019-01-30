@@ -27,10 +27,13 @@ crossorigin="anonymous"></script>
 <script src="js/daemon-disp.js"></script>
 
 <script src="js/moon.js"></script>
+<script src="js/damage.js"></script>
+
 <script type="text/javascript">
 window.onload = function() {
 	InitializeMoon();
 	LunarPhaseCheck();
+	DamageCalc();
 }
 setInterval('LunarPhaseCheck()',1000);
 </script>
@@ -40,60 +43,24 @@ setInterval('LunarPhaseCheck()',1000);
 	<nav>
 		<ul>
 			<li><a href="./moon.html" id="Lunar phase" class="moon"></a></li>
-			<li><span><img src="img/ic-index.png" alt="">〇〇を作るには</span></li>
+			<li><a href="index.html"><img src="img/ic-index.png" alt="">〇〇を作るには</a></li>
 			<li><a href="index2.html"><img src="img/ic-index2.png" alt="">〇〇は何の素材になるか</a></li>
 			<li><a href="skill.html"><img src="img/ic-index3.png" alt="">〇〇を継承するには</a></li>
-      <li><span><a href = 
+			<li><span><img src="img/ic-index3.png" alt="">〇〇のダメージは(仮)</span></li>
+     <li><span><a href = 
     'https://github.com/wim-lab/d2/blob/master/README.md' target="_blank"
          ><img src="img/ic-gh.png" alt="GitHub">このデータ改訂版について</a></li>
 		</ul>
 	</nav>
 </header>
 
-<div id="search-demon">
-	<ul id="search-info">
-		<li id="info-ic">Img</li>
-		<li id="info-name"><label for="search">Search Name :</label><input type="text" name="search" id="search" value="" placeholder="例: じゃあくフロスト"><button id="search-btn" type="button">検索</button></li>
-		<li id="info-type">Type :<span>&nbsp;</span></li>
-		<li id="info-grade">Grade :<span>&nbsp;</span></li>
-		<li id="info-rare">Rare :<span>&nbsp;</span></li>
-	</ul>
-	<div id="info-prop">
-		<ul>
-			<li><img src="img/ic-prop_01.png" alt="物理:"><span>-</span></li>
-			<li><img src="img/ic-prop_02.png" alt="火炎:"><span>-</span></li>
-			<li><img src="img/ic-prop_03.png" alt="氷結:"><span>-</span></li>
-			<li><img src="img/ic-prop_04.png" alt="電撃:"><span>-</span></li>
-			<li><img src="img/ic-prop_05.png" alt="衝撃:"><span>-</span></li>
-			<li><img src="img/ic-prop_06.png" alt="破魔:"><span>-</span></li>
-			<li><img src="img/ic-prop_07.png" alt="呪殺:"><span>-</span></li>
-		</ul>
-	</div>
-	<dl class="search-remove">
-		<dt>合体費用目安</dt>
-    <dd><ul>
-			<li><input type="checkbox" id="pStd"><label for="pStd">ー</label></li>
-      <li><input type="checkbox" id="pHalf"><label
-                                 for="pHalf"><strong>↑</strong></label></li>
-      <li><input type="checkbox" id="pMax"><label
-          for="pMax"><strong>↑↑</strong></label></li>
-    </ul></dd>
-  </dl>
-	<dl class="search-remove">
-		<dt>除外したい素材</dt>
-    <dd><ul>
-			<li><input type="checkbox" id="rare1"><label for="rare1">★1</label></li>
-			<li><input type="checkbox" id="rare2"><label for="rare2">★2</label></li>
-			<li><input type="checkbox" id="rare3"><label for="rare3">★3</label></li>
-			<li><input type="checkbox" id="rare4"><label for="rare4">★4</label></li>
-			<li><input type="checkbox" id="rare5"><label for="rare5">★5</label></li>
-    </ul></dd>
-	</dl>
+<div id="damage-calculator">
+攻撃：<INPUT TYPE="number" onChange="DamageCalc()" id="atk" NAME="atk" value=1000 min=0><BR>
+防御：<INPUT TYPE="number" onChange="DamageCalc()" id="def" NAME="def" value=500 min=0><BR>
+スキル威力：<INPUT TYPE="number" onChange="DamageCalc()" id="pwr" NAME="pwr" value=100 min=0><BR>
+ダメージ増加：<INPUT TYPE="number" onChange="DamageCalc()" id="dmg" NAME="dmg" value=0 min=0><BR>
+<p id="Damage"></p>
 </div>
-
-<section id="result">
-	<h2>一覧から表示</h2><div id = "message"><a href="./index3.html">一覧から選択</a></div>
-</section>
 
 <footer>
   <a href = "https://d2-megaten-l.sega.jp/" target = "_blank"
@@ -101,3 +68,17 @@ setInterval('LunarPhaseCheck()',1000);
   <p id = "copyright" ><small>©SEGA/©ATLUS</small></p>
 </footer>
 </html>
+<!--
+攻撃側：<BR>
+力：<INPUT TYPE="number" id="a-st" NAME="a-st" SIZE=10 min=1 max=256><BR>
+魔：<INPUT TYPE="number" id="a-Ma" NAME="a-Ma" SIZE=10 min=1 max=256><BR>
+体：<INPUT TYPE="number" id="a-Vi" NAME="a-Vi" SIZE=10 min=1 max=256><BR>
+速：<INPUT TYPE="number" id="a-Ag" NAME="a-Ag" SIZE=10 min=1 max=256><BR>
+運：<INPUT TYPE="number" id="a-Lu" NAME="a-Lu" SIZE=10 min=1 max=256><BR>
+防御側：<BR>
+力：<INPUT TYPE="number" id="d-st" NAME="d-st" SIZE=10 min=1 max=256><BR>
+魔：<INPUT TYPE="number" id="d-Ma" NAME="d-Ma" SIZE=10 min=1 max=256><BR>
+体：<INPUT TYPE="number" id="d-Vi" NAME="d-Vi" SIZE=10 min=1 max=256><BR>
+速：<INPUT TYPE="number" id="d-Ag" NAME="d-Ag" SIZE=10 min=1 max=256><BR>
+運：<INPUT TYPE="number" id="d-Lu" NAME="d-Lu" SIZE=10 min=1 max=256><BR>
+-->
