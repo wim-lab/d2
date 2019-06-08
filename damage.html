@@ -55,6 +55,66 @@ setInterval('LunarPhaseCheck()',1000);
 </header>
 
 <div id="damage-calculator">
+<table border>
+<tr>
+<td rowspan="2" colspan="2"></td>
+<td rowspan="2">烙印</td>
+<td colspan="2">物攻</td>
+<td colspan="2">魔攻</td>
+</tr>
+<tr>
+<td>％</td>
+<td>実数</td>
+<td>％</td>
+<td>実数</td>
+</tr>
+<tr>
+<td>力</td>
+<td><INPUT TYPE="number" id="a-St" NAME="a-St" min=1 max=512 value=100 style="width:50px;"></td>
+<td>頭</td>
+<td>2-4</td>
+<td>2-5</td>
+<td>2-6</td>
+<td>2-7</td>
+</tr>
+<tr>
+<td>魔</td>
+<td><INPUT TYPE="number" id="a-Ma" NAME="a-Ma" min=1 max=512 value=100 style="width:50px;"></td>
+<td>右腕</td>
+<td>3-4</td>
+<td>3-5</td>
+<td>3-6</td>
+<td>3-7</td>
+</tr>
+<tr>
+<td>体</td>
+<td><INPUT TYPE="number" id="a-Vi" NAME="a-Vi" min=1 max=512 value=100 style="width:50px;"></td>
+<td>左腕</td>
+<td>4-4</td>
+<td>4-5</td>
+<td>4-6</td>
+<td>4-7</td>
+</tr>
+<tr>
+<td>速</td>
+<td><INPUT TYPE="number" id="a-Ag" NAME="a-Ag" min=1 max=512 value=100 style="width:50px;"></td>
+<td>胴</td>
+<td>5-4</td>
+<td>5-5</td>
+<td>5-6</td>
+<td>5-7</td>
+</tr>
+<tr>
+<td>運</td>
+<td><INPUT TYPE="number" id="a-Lu" NAME="a-Lu" min=1 max=512 value=100 style="width:50px;"></td>
+<td>足</td>
+<td>6-4</td>
+<td>6-5</td>
+<td>6-6</td>
+<td>6-7</td>
+</tr>
+</table>
+
 攻撃：<INPUT TYPE="number" onChange="DamageCalc()" id="atk" NAME="atk" value=1000 min=0><BR>
 防御：<INPUT TYPE="number" onChange="DamageCalc()" id="def" NAME="def" value=500 min=0><BR>
 スキル威力：<INPUT TYPE="number" onChange="DamageCalc()" id="pwr" NAME="pwr" value=100 min=0><BR>
@@ -70,7 +130,7 @@ setInterval('LunarPhaseCheck()',1000);
 </html>
 <!--
 攻撃側：<BR>
-力：<INPUT TYPE="number" id="a-st" NAME="a-st" SIZE=10 min=1 max=256><BR>
+力：<INPUT TYPE="number" id="a-St" NAME="a-St" SIZE=10 min=1 max=256><BR>
 魔：<INPUT TYPE="number" id="a-Ma" NAME="a-Ma" SIZE=10 min=1 max=256><BR>
 体：<INPUT TYPE="number" id="a-Vi" NAME="a-Vi" SIZE=10 min=1 max=256><BR>
 速：<INPUT TYPE="number" id="a-Ag" NAME="a-Ag" SIZE=10 min=1 max=256><BR>
