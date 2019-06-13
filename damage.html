@@ -33,7 +33,7 @@ crossorigin="anonymous"></script>
 window.onload = function() {
 	InitializeMoon();
 	LunarPhaseCheck();
-	DamageCalc();
+	BrandsCalc();
 }
 setInterval('LunarPhaseCheck()',1000);
 </script>
@@ -55,10 +55,84 @@ setInterval('LunarPhaseCheck()',1000);
 </header>
 
 <div id="damage-calculator">
-攻撃：<INPUT TYPE="number" onChange="DamageCalc()" id="atk" NAME="atk" value=1000 min=0><BR>
-防御：<INPUT TYPE="number" onChange="DamageCalc()" id="def" NAME="def" value=500 min=0><BR>
+<table border>
+<tr>
+<td rowspan="2">Lv</td>
+<td rowspan="2"><INPUT TYPE="number" onChange="StatusCalc()" id="a-Lv" NAME="a-Lv" min=1 max=50 value=50 style="width:50px;"></td>
+<td rowspan="2">烙印</td>
+<td colspan="2">物攻</td>
+<td colspan="2">魔攻</td>
+</tr>
+<tr>
+<td>実数</td>
+<td>％</td>
+<td>実数</td>
+<td>％</td>
+</tr>
+<tr>
+<td>力</td>
+<td><INPUT TYPE="number" onChange="StatusCalc()" id="a-St" NAME="a-St" min=1 max=512 value=100 style="width:50px;"></td>
+<td>頭</td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Head-Atk-Real" NAME="a-Head-Atk-Real" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Head-Atk-Percentage" NAME="a-Head-Atk-Percentage" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Head-MAtk-Real" NAME="a-Head-MAtk-Real" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Head-MAtk-Percentage" NAME="a-Head-MAtk-Percentage" min=0 max=512 value=0 style="width:50px;"></td>
+</tr>
+<tr>
+<td>魔</td>
+<td><INPUT TYPE="number" onChange="StatusCalc()" id="a-Ma" NAME="a-Ma" min=1 max=512 value=100 style="width:50px;"></td>
+<td>右腕</td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-RArm-Atk-Real" NAME="a-RArm-Atk-Real" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-RArm-Atk-Percentage" NAME="a-RArm-Atk-Percentage" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-RArm-MAtk-Real" NAME="a-RArm-MAtk-Real" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-RArm-MAtk-Percentage" NAME="a-RArm-MAtk-Percentage" min=0 max=512 value=0 style="width:50px;"></td>
+</tr>
+<tr>
+<td>体</td>
+<td><INPUT TYPE="number" onChange="StatusCalc()" id="a-Vi" NAME="a-Vi" min=1 max=512 value=100 style="width:50px;"></td>
+<td>左腕</td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-LArm-Atk-Real" NAME="a-LArm-Atk-Real" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-LArm-Atk-Percentage" NAME="a-LArm-Atk-Percentage" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-LArm-MAtk-Real" NAME="a-LArm-MAtk-Real" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-LArm-MAtk-Percentage" NAME="a-LArm-MAtk-Percentage" min=0 max=512 value=0 style="width:50px;"></td>
+</tr>
+<tr>
+<td>速</td>
+<td><INPUT TYPE="number" onChange="StatusCalc()" id="a-Ag" NAME="a-Ag" min=1 max=512 value=100 style="width:50px;"></td>
+<td>胴</td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Body-Atk-Real" NAME="a-Body-Atk-Real" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Body-Atk-Percentage" NAME="a-Body-Atk-Percentage" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Body-MAtk-Real" NAME="a-Body-MAtk-Real" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Body-MAtk-Percentage" NAME="a-Body-MAtk-Percentage" min=0 max=512 value=0 style="width:50px;"></td>
+</tr>
+<tr>
+<td>運</td>
+<td><INPUT TYPE="number" onChange="StatusCalc()" id="a-Lu" NAME="a-Lu" min=1 max=512 value=100 style="width:50px;"></td>
+<td>足</td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Leg-Atk-Real" NAME="a-Leg-Atk-Real" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Leg-Atk-Percentage" NAME="a-Leg-Atk-Percentage" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Leg-MAtk-Real" NAME="a-Leg-MAtk-Real" min=0 max=512 value=0 style="width:50px;"></td>
+<td><INPUT TYPE="number" onChange="BrandsCalc()" id="a-Leg-MAtk-Percentage" NAME="a-Leg-MAtk-Percentage" min=0 max=512 value=0 style="width:50px;"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>合計</td>
+<td><INPUT TYPE="number" readonly="readonly" id="Brands-Atk-Real" NAME="Brands-Atk-Real" style="width:50px;"></td>
+<td><INPUT TYPE="number" readonly="readonly" id="Brands-Atk-Percentage" NAME="Brands-Atk-Percentage" style="width:50px;"></td>
+<td><INPUT TYPE="number" readonly="readonly" id="Brands-MAtk-Real" NAME="Brands-MAtk-Real" style="width:50px;"></td>
+<td><INPUT TYPE="number" readonly="readonly" id="Brands-MAtk-Percentage" NAME="Brands-MAtk-Percentage" style="width:50px;"></td>
+</tr>
+</table>
+
+<p id="Brands"></p>
+
+物攻：<INPUT TYPE="number" readonly="readonly" id="a-Atk" NAME="a-Atk" style="width:50px;"><BR>
+魔攻：<INPUT TYPE="number" readonly="readonly" id="a-MAtk" NAME="a-MAtk" style="width:50px;"><BR>
 スキル威力：<INPUT TYPE="number" onChange="DamageCalc()" id="pwr" NAME="pwr" value=100 min=0><BR>
 ダメージ増加：<INPUT TYPE="number" onChange="DamageCalc()" id="dmg" NAME="dmg" value=0 min=0><BR>
+物防：<INPUT TYPE="number" readonly="readonly" id="d-Def" NAME="d-Def" value=700 style="width:50px;"><BR>
+魔防：<INPUT TYPE="number" readonly="readonly" id="d-Mdef" NAME="d-Def" value=700 style="width:50px;"><BR>
 <p id="Damage"></p>
 </div>
 
@@ -70,7 +144,7 @@ setInterval('LunarPhaseCheck()',1000);
 </html>
 <!--
 攻撃側：<BR>
-力：<INPUT TYPE="number" id="a-st" NAME="a-st" SIZE=10 min=1 max=256><BR>
+力：<INPUT TYPE="number" id="a-St" NAME="a-St" SIZE=10 min=1 max=256><BR>
 魔：<INPUT TYPE="number" id="a-Ma" NAME="a-Ma" SIZE=10 min=1 max=256><BR>
 体：<INPUT TYPE="number" id="a-Vi" NAME="a-Vi" SIZE=10 min=1 max=256><BR>
 速：<INPUT TYPE="number" id="a-Ag" NAME="a-Ag" SIZE=10 min=1 max=256><BR>
