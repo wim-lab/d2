@@ -58,6 +58,12 @@ function DamageCalc(){
 	 * ( document.getElementById("pwr").value / 100 )
 	 * ( 1 + document.getElementById("dmg").value / 100 )
 	) ;
-	var msg = "ダメージ：" + dmg;
+	var msg = "ダメージ：" + dmg + "<BR>";
+	dmg = Math.floor(
+	 ( 0.4 * document.getElementById("a-MAtk").value - 0.2 * document.getElementById("d-MDef").value )
+	 * ( document.getElementById("pwr").value / 100 )
+	 * ( 1 + document.getElementById("dmg").value / 100 )
+	) ;
+	msg += "ダメージ：" + dmg;
 	document.getElementById("Damage").innerHTML = msg;
 };
