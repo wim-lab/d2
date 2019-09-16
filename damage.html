@@ -131,8 +131,8 @@ setInterval('LunarPhaseCheck()',1000);
 魔攻：<INPUT TYPE="number" readonly="readonly" id="a-MAtk" NAME="a-MAtk" style="width:50px;"><BR>
 スキル威力：<INPUT TYPE="number" onChange="DamageCalc()" id="pwr" NAME="pwr" value=100 min=0><BR>
 ダメージ増加：<INPUT TYPE="number" onChange="DamageCalc()" id="dmg" NAME="dmg" value=0 min=0><BR>
-物防：<INPUT TYPE="number" readonly="readonly" id="d-Def" NAME="d-Def" value=700 style="width:50px;"><BR>
-魔防：<INPUT TYPE="number" readonly="readonly" id="d-Mdef" NAME="d-Def" value=700 style="width:50px;"><BR>
+物防：<INPUT TYPE="number" onChange="DamageCalc()" id="d-Def" NAME="d-Def" value=700 min=0 style="width:50px;"><BR>
+魔防：<INPUT TYPE="number" onChange="DamageCalc()" id="d-MDef" NAME="d-MDef" value=700 min=0 style="width:50px;"><BR>
 <p id="Damage"></p>
 </div>
 
