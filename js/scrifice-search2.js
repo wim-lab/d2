@@ -42,6 +42,7 @@ dView[mode].show = function(a) {
 		return "";
 	}
 	stat = {"name":a.detail.name, "no":a.detail.no, "titile":"", "hide":false};
+	a.race.type = a.race.type.trim();
 	if (null == a.race.comb){
 		document.title = a.detail.name + " は二身合体に使えません";
 		s = "<h2>未実装</h2>",
@@ -55,14 +56,13 @@ dView[mode].show = function(a) {
 		s = "<h2>検索結果</h2>";
 		var rList = [];
 		var rareTarget = a.detail.rare.length;
-
 		for(let race of church.data){
 			if (null == race.comb){continue;}
 			for(let comb of race.comb){
 				if (a.race.type == comb.n1){
 					rList.push({"second":comb.n2, "summon":race});
 				} else if (a.race.type == comb.n2){
-						rList.push({"second":comb.n1, "summon":race});
+					rList.push({"second":comb.n1, "summon":race});
 				}
 			}
 		}
