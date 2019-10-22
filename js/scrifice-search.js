@@ -25,6 +25,7 @@ dView[mode].show = function(a) {
 		return "";
 	}
 	stat = {"name":a.detail.name, "no":a.detail.no, "titile":"", "hide":false};
+	a.race.type = a.race.type.trim();
 	if (null == a.race.comb){
 		document.title = a.detail.name + " は二身合体に使えません";
 		s = "<h2>未実装</h2>",
