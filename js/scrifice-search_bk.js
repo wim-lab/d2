@@ -2,7 +2,7 @@
  * scrifice-search.js
  * https://github.com/yaemon/
  *
- * Copyright r-jp, yaemon.
+ * Copyright r-jp, yaemon, wimlab.
  * Released under the MIT license
  *
  */
@@ -14,27 +14,10 @@ dView.Status.disp[mode] = [
 	"get1", "get2", "get3", "get4", "get5",
 ];
 dView[mode].show = function(a) {
-	var s = "";
+	var s;
 	var stat = {"name":"", "no":0, "mode":mode, "titile":"", "hide":false};
 	if (null == a){
 		stat.title = "〇〇は何の素材になるか";
-		var rList = [];
-		for(let race of church.data){
-			if (null == race.list){continue;}
-			rList.push(race)
-		}
-		
-		for(let r of rList){
-			s += "<article><h3>"+r.type+"</h3>";
-			for(let d of r.list){
-				s += "<ul>";
-				s += dView.d2liBox(d, "summon");
-				s += "</ul>";
-			}
-			s += "</article>"
-		}
-		$("#result").html(s);
-
 		return "";
 	}
 	if (null != a.notFound){
@@ -56,13 +39,14 @@ dView[mode].show = function(a) {
 		s = "<h2>検索結果</h2>";
 		var rList = [];
 		var rareTarget = a.detail.rare.length;
+
 		for(let race of church.data){
 			if (null == race.comb){continue;}
 			for(let comb of race.comb){
 				if (a.race.type == comb.n1){
 					rList.push({"second":comb.n2, "summon":race});
 				} else if (a.race.type == comb.n2){
-					rList.push({"second":comb.n1, "summon":race});
+						rList.push({"second":comb.n1, "summon":race});
 				}
 			}
 		}
