@@ -2,7 +2,7 @@
  * summon-search.js
  * https://github.com/yaemon/
  *
- * Copyright r-jp, yaemon, wim-lab.
+ * Copyright r-jp, yaemon.
  * Released under the MIT license
  *
  */
@@ -29,34 +29,8 @@ dView.Status.disp[mode] =[
 ];
 
 dView[mode].show = function(a) {
-	let s = "";
+	let s;
 	let stat = {"name":"", "no":0, "mode":mode, "titile":"", "hide":false};
-	if (null == a){
-		stat.title = "〇〇を作るには";
-		var rList = [];
-		for(let race of church.data){
-			if (null == race.list){continue;}
-			rList.push(race)
-		}
-		
-		for(let r of rList){
-			s += "<article><h3>"+r.type+"</h3>";
-			for(let d of r.list){
-				s += "<ul>";
-				s += dView.d2liBox(d, "summon");
-				s += "</ul>";
-			}
-			s += "</article>"
-		}
-		$("#result").html(s);
-
-		return stat;
-	}
-	if (null != a.notFound){
-		stat.title = a.notFound + " が分かりません";
-		return stat;
-	}
-	stat = {"name":a.detail.name, "no":a.detail.no, "titile":"", "hide":false};
 	if (null != a.detail.union){
 		stat.hide = true;
 		stat.title = a.detail.name + "を作るには";
@@ -75,7 +49,7 @@ dView[mode].show = function(a) {
 		s += '<div id = "message">',
 		s	+= "<p>" + a.race.type + "を合体で作成する方法は提供されていません</p>",
 		s += '</div>';
-	} else {
+ 	} else {
 		stat.title = a.detail.name + "を作るには";
 		s = "<h2>検索結果</h2>";
 		var lesser = (a.rank == 0) ? 0 : a.race.list[a.rank -1].grade;
@@ -93,6 +67,7 @@ dView[mode].show = function(a) {
 					if (lesser < z && z <= a.detail.grade)
 						x.push( {"left":e, "right":t, "price":church.invoice(a.detail, e, t)});
 				}
+
 
 			var left  = church.getRaceByName(pair.n1 +" ").list;
 			var right = church.getRaceByName(pair.n2).list;
