@@ -1,10 +1,10 @@
 ﻿'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2019-11-28",
+		"Last modified" : "2019-11-30",
 		"Last maintainer" : "wim-lab",
-		"Game Version" : "2.6.00",
-		"OneLiner" : "(Game Version 2.6.00)", // 検索画面に表示される
+		"Game Version" : "2.6.01",
+		"OneLiner" : "(Game Version 2.6.01)", // 検索画面に表示される
 	};
 };
 /*
@@ -1393,7 +1393,7 @@ church.data = [
 				"prop":["耐", "-", "-", "反", "弱", "無 / 反(防魔)", "無"],
 				"skill":["メディラマ", "未設定", "未設定", "未設定", "未設定"],
 				"union":[205, 206, 207, 208],
-				"price":0},
+				"price":300000},
 			{"name": "カーマ", "grade": 75, "rare": "★★★★", "img": "img/kama.png", "no": 160,
 				"prop":["耐", "弱 / 反(防魔)", "-", "-", "-", "耐", "-"],
 				"skill":["スピードスター", "未設定", "未設定", "未設定", "未設定"],
