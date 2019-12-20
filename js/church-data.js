@@ -331,6 +331,8 @@ church.data = [
 	},
 	{
 		"type": "幻魔 ",
+		"comb": [
+		],
 		"list": [
 			{"name": "フロストエース", "grade": 80, "rare": "★★★★★", "img": "img/frostace.png", "no": 244,
 				"prop":["-", "反", "反", "-", "-", "耐", "弱 / 無(防魔)"],
