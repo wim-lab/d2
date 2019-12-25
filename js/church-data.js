@@ -1,7 +1,7 @@
 ﻿'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2019-12-11",
+		"Last modified" : "2019-12-25",
 		"Last maintainer" : "wim-lab",
 		"Game Version" : "2.6.02",
 		"OneLiner" : "(Game Version 2.6.02)", // 検索画面に表示される
@@ -1363,6 +1363,9 @@ church.data = [
 			{"name": "ヨシツネ", "grade": 97, "rare": "★★★★★", "img": "img/yoshitsune.png", "no": 154,
 				"prop":["耐 / 吸(防魔)", "-", "-", "-", "-", "無", "無"],
 				"skill":["空間殺法", "ゴッドハンド", "スクカオート", "ミナゴロシの愉悦", "氷結耐性"]},
+			{"name": "マサカド ", "grade": 99, "rare": "★★★★★", "img": "img/masakado02.png", "no": 1204,
+				"prop":["？", "？", "？", "？", "？", "？", "？"],
+				"skill":["？", "？", "？", "？", "？"]},
 		],
 	},
 	{
