@@ -1,10 +1,10 @@
 ﻿'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2020-1-18",
+		"Last modified" : "2020-3-7",
 		"Last maintainer" : "wim-lab",
-		"Game Version" : "3.0.00",
-		"OneLiner" : "(Game Version 3.0.00)", // 検索画面に表示される
+		"Game Version" : "3.0.20",
+		"OneLiner" : "(Game Version 3.0.20)", // 検索画面に表示される
 	};
 };
 /*
@@ -47,8 +47,7 @@ church.data = [
 	},
 	{
 		"type": "大天使 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
 			{"name": "ウリエル", "grade": 86, "rare": "★★★★★", "img": "img/uriel.png", "no": 231,
 				"prop":["-", "反", "-", "-", "-", "反", "弱 / 反(防魔)"],
@@ -111,8 +110,7 @@ church.data = [
 	},
 	{
 		"type": "女神 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
 			{"name": "パールヴァティ", "grade": 60, "rare": "★★★★", "img": "img/parvati.png", "no": 213,
 				"prop":["-", "弱 / 無(防魔)", "耐", "-", "-", "耐", "耐"],
@@ -161,8 +159,7 @@ church.data = [
 	},
 	{
 		"type": "霊鳥 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
 			{"name": "ガルーダ ", "grade": 80, "rare": "★★★★★", "img": "img/garuda02.png", "no": 1166,
 				"prop":["-", "反", "弱 / 無(防魔)", "-", "吸", "耐", "-"],
@@ -208,8 +205,7 @@ church.data = [
 	},
 	{
 		"type": "魔神 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
 			{"name": "バアル", "grade": 86, "rare": "★★★★★", "img": "img/baal.png", "no": 230,
 				"prop":["-", "-", "弱 / 無(防魔)", "無", "吸", "耐", "-"],
@@ -334,8 +330,7 @@ church.data = [
 	},
 	{
 		"type": "幻魔 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
 			{"name": "フロストエース", "grade": 80, "rare": "★★★★★", "img": "img/frostace.png", "no": 244,
 				"prop":["-", "反", "反", "-", "-", "耐", "弱 / 無(防魔)"],
@@ -386,8 +381,7 @@ church.data = [
 	},
 	{
 		"type": "破壊神 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
 			{"name": "カルティケーヤ", "grade": 80, "rare": "★★★★★", "img": "img/karttikeya.png", "no": 224,
 				"prop":["- / 無(防魔)", "-", "-", "-", "-", "-", "-"],
@@ -446,6 +440,15 @@ church.data = [
 		]
 	},
 	{
+		"type": "龍神 ",
+		"comb": [],
+		"list": [
+			{"name": "ケツアルカトル ", "grade": 80, "rare": "★★★★★", "img": "img/quetzalcoatl02.png", "no": 1178,
+				"prop":["耐", "吸", "-", "-", "耐", "耐", "弱 / 無(防魔)"],
+				"skill":["火炎ハイブースタ", "無慈悲な一撃", "魅了無効", "タルカオート", "物理無効"]},
+		]
+	},
+	{
 		"type": "地母神",
 		"comb": [
 			{"n1": "大天使", "n2": "邪鬼"},
@@ -488,8 +491,7 @@ church.data = [
 	},
 	{
 		"type": "地母神 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
 			{"name": "キュベレ", "grade": 85, "rare": "★★★★★", "img": "img/cybele.png", "no": 222,
 				"prop":["-", "吸", "弱 / 反(防魔)", "-", "耐", "無", "耐"],
@@ -703,8 +705,7 @@ church.data = [
 	},
 	{
 		"type": "魔獣 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
 			{"name": "カブソ", "grade": 20, "rare": "★★", "img": "img/kabuso.png", "no": 221,
 				"prop":["-", "-", "耐 / 無(防魔)", "弱", "-", "-", "-"],
@@ -765,10 +766,9 @@ church.data = [
 	},
 	{
 		"type": "妖精 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
-			{"name": "ナジャ", "grade": 30, "rare": "★★★★", "img": "img/nadja.png", "no": 210,
+			{"name": "ナジャ", "grade": 30, "rare": "★★", "img": "img/nadja.png", "no": 210,
 				"prop":["-", "-", "弱", "-", "耐 / 無(防魔)", "-", "-"],
 				"skill":["メポズムディ", "未設定", "未設定", "未設定", "未設定"]},
 			{"name": "おてつだいフロスト", "grade": 63, "rare": "★★★★", "img": "img/jackfrost.png", "no": 1081,
@@ -1067,8 +1067,7 @@ church.data = [
 	},
 	{
 		"type": "邪神 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
 			{"name": "ミシャグジさま", "grade": 65, "rare": "★★★★", "img": "img/mishagujisama.png", "no": 201,
 				"prop":["-", "-", "-", "無 / 吸(防魔)", "弱", "弱", "無"],
@@ -1156,10 +1155,9 @@ church.data = [
 	},
 	{
 		"type": "外道 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
-			{"name": "ジャック・リパー", "grade": 22, "rare": "★", "img": "img/jacktheripper.png", "no": 229,
+			{"name": "ジャック・リパー", "grade": 22, "rare": "★★", "img": "img/jacktheripper.png", "no": 229,
 				"prop":["-", "弱", "-", "-", "-", "弱", "耐久"],
 				"skill":["コロシの愉悦", "未設定", "未設定", "未設定", "未設定"]},
 		]
@@ -1209,8 +1207,7 @@ church.data = [
 	},
 	{
 		"type": "魔王 ",
-		"comb": [
-		],
+		"comb": [],
 		"list": [
 			{"name": "アバドン ", "grade": 60, "rare": "★★★★", "img": "img/abaddon02.png", "no": 1137,
 				"prop":["無", "反", "-", "弱", "-", "-", "-"],
@@ -1571,66 +1568,77 @@ church.data = [
 /* DUMMY DATA */
 	{
 		"type": "神獣 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "聖獣 ",
-		"list": []
-	},
-	{
-		"type": "龍神 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "鬼神 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "天使 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "妖魔 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "龍王 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "地霊 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "邪鬼 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "堕天使 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "妖鬼 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "鬼女 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "夜魔 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "妖獣 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "邪龍 ",
+		"comb": [],
 		"list": []
 	},
 	{
 		"type": "幽鬼 ",
+		"comb": [],
 		"list": []
 	},
 ];
