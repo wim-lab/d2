@@ -1,7 +1,7 @@
 ﻿'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2020-3-27",
+		"Last modified" : "2020-4-3",
 		"Last maintainer" : "wim-lab",
 		"Game Version" : "3.1.00",
 		"OneLiner" : "(Game Version 3.1.00)", // 検索画面に表示される
@@ -1270,6 +1270,11 @@ church.data = [
 			{"name": "ヘカーテ", "grade": 81, "rare": "★★★★★", "img": "img/hecate.png", "no": 247,
 				"prop":["-", "無", "-", "-", "-", "弱 / 無(防魔)", "反"],
 				"skill":["緊縛無効", "呪殺ハイブースタ", "タルカオート", "無慈悲な一撃", "野獣の勘"]},
+			{"name": "ルキフグス", "grade": 92, "rare": "★★★★★", "img": "img/lucifugus.png", "no": 255,
+				"prop":["-", "-", "-", "-", "無", "弱", "吸"],
+				"skill":["呪殺ハイブースタ", "未設定", "タ未設定", "未設定", "未設定"],
+				"union":[230, 94, 137],
+				"price":1000000},
 		]
 	},
 	{
