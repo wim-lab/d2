@@ -1,7 +1,7 @@
 ﻿'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2020-4-3",
+		"Last modified" : "2020-4-22",
 		"Last maintainer" : "wim-lab",
 		"Game Version" : "3.1.00",
 		"OneLiner" : "(Game Version 3.1.00)", // 検索画面に表示される
@@ -1424,6 +1424,9 @@ church.data = [
 			{"name": "コウテイ", "grade": 88, "rare": "★★★★★", "img": "img/koutei.png", "no": 171,
 				"prop":["-", "耐", "耐", "耐", "耐", "- / 反(防魔)", "-"],
 				"skill":["冥界破", "タルカオート", "物理無効", "虐殺者", "奈落のマスク"]},
+			{"name": "トキサダ", "grade": 92, "rare": "★★★★★", "img": "img/tokisada.png", "no": 999,
+				"prop":["-", "-", "-", "耐", "耐", "無 / 反(防魔)", "-"],
+				"skill":["致命の一撃", "無慈悲な一撃", "リベリオート", "勝利の息吹", "破魔エンハンス"]},
 			{"name": "ヨシツネ", "grade": 97, "rare": "★★★★★", "img": "img/yoshitsune.png", "no": 154,
 				"prop":["耐 / 吸(防魔)", "-", "-", "-", "-", "無", "無"],
 				"skill":["空間殺法", "ゴッドハンド", "スクカオート", "ミナゴロシの愉悦", "氷結耐性"]},
