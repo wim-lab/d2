@@ -1,7 +1,7 @@
 ﻿'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2020-4-22",
+		"Last modified" : "2020-5-14",
 		"Last maintainer" : "wim-lab",
 		"Game Version" : "3.1.00",
 		"OneLiner" : "(Game Version 3.1.00)", // 検索画面に表示される
@@ -118,6 +118,11 @@ church.data = [
 				"skill":["メディラ", "未設定", "未設定", "未設定", "未設定"],
 				"union":[63, 67, 10],
 				"price":300000},
+			{"name": "アナト", "grade": 84, "rare": "★★★★★", "img": "img/anat.png", "no": 257,
+				"prop":["-", "-", "-", "吸", "弱 / 無(防魔)", "無", "耐"],
+				"skill":["電撃ハイブースタ", "大暗殺者", "電撃エンハンス", "勝利のチャクラ", "奈落のマスク"],
+				"union":[11, 236, 234],
+				"price":5000000},
 		]
 	},
 	{
@@ -1424,7 +1429,7 @@ church.data = [
 			{"name": "コウテイ", "grade": 88, "rare": "★★★★★", "img": "img/koutei.png", "no": 171,
 				"prop":["-", "耐", "耐", "耐", "耐", "- / 反(防魔)", "-"],
 				"skill":["冥界破", "タルカオート", "物理無効", "虐殺者", "奈落のマスク"]},
-			{"name": "トキサダ", "grade": 92, "rare": "★★★★★", "img": "img/tokisada.png", "no": 999,
+			{"name": "トキサダ", "grade": 92, "rare": "★★★★★", "img": "img/tokisada.png", "no": 256,
 				"prop":["-", "-", "-", "耐", "耐", "無 / 反(防魔)", "-"],
 				"skill":["致命の一撃", "無慈悲な一撃", "リベリオート", "勝利の息吹", "破魔エンハンス"]},
 			{"name": "ヨシツネ", "grade": 97, "rare": "★★★★★", "img": "img/yoshitsune.png", "no": 154,
