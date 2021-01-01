@@ -1,10 +1,10 @@
 ﻿'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2020-12-16",
+		"Last modified" : "2021-01-01",
 		"Last maintainer" : "wim-lab",
-		"Game Version" : "3.2.21",
-		"OneLiner" : "(Game Version 3.2.21)", // 検索画面に表示される
+		"Game Version" : "3.2.40",
+		"OneLiner" : "(Game Version 3.2.40)", // 検索画面に表示される
 	};
 };
 /*
@@ -236,15 +236,9 @@ church.data = [
 			{"name": "ヴィローシャナ", "grade": 93, "rare": "★★★★★", "img": "img/vairocana.png", "no": 249,
 				"prop":["-", "反", "-", "-", "-", "反", "無 / 反(防魔)"],
 				"skill":["不屈の闘志", "マカラカシフト", "ラクカオート", "マハラギダイン", "魅了無効"]},
-		]
-	},
-	{
-		"type": "魔\0神",
-		"comb": [],
-		"list": [
-			{"name": "アルダー", "grade": 85, "rare": "★★★★★", "img": "img/ardha.png", "no": 9985,
-				"prop":["-", "-", "-", "-", "-", "-", "-"],
-				"skill":["-", "-", "-", "-", "-"]},
+			{"name": "アルダー", "grade": 95, "rare": "★★★★★", "img": "img/alder.png", "no": 276,
+				"prop":["無 / 吸(防魔)", "吸", "-", "吸", "-", "-", "-"],
+				"skill":["破壊の権化", "大虐殺者", "嗜虐の一撃", "大暗殺者", "強靭の権化"]},
 		]
 	},
 	{
@@ -1368,15 +1362,9 @@ church.data = [
 				"skill":["呪殺ハイブースタ", "未設定", "未設定", "未設定", "未設定"],
 				"union":[230, 94, 137],
 				"price":1000000},
-		]
-	},
-	{
-		"type": "魔\0王",
-		"comb": [],
-		"list": [
-			{"name": "アンリ・マンユ", "grade": 82, "rare": "★★★★★", "img": "img/angramainyu.png", "no": 9982,
-				"prop":["-", "-", "-", "-", "-", "-", "-"],
-				"skill":["-", "-", "-", "-", "-"]},
+			{"name": "アンリ・マンユ", "grade": 96, "rare": "★★★★★", "img": "img/angramainyu.png", "no": 277,
+				"prop":["-", "-", "反", "反", "-", "弱 / 無(防魔)", "反"],
+				"skill":["狂乱の権化", "迅速の権化", "陽光の衰退", "狂い咲き", "寸分の見切り"]},
 		]
 	},
 	{
