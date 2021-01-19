@@ -1,10 +1,10 @@
 ﻿'use strict';
 church.version = function(){
 	return {
-		"Last modified" : "2021-01-01",
+		"Last modified" : "2021-01-19",
 		"Last maintainer" : "wim-lab",
-		"Game Version" : "3.2.40",
-		"OneLiner" : "(Game Version 3.2.40)", // 検索画面に表示される
+		"Game Version" : "4.0.00",
+		"OneLiner" : "(Game Version 4.0.00)", // 検索画面に表示される
 	};
 };
 /*
@@ -967,7 +967,7 @@ church.data = [
 			{"name": "フラロウス", "grade": 82, "rare": "★★★★★", "img": "img/flauros.png", "no": 275,
 				"prop":["耐", "無", "弱 / 無(防魔)", "-", "-", "-", "反"],
 				"skill":["デスカウンター", "物理ハイブースタ", "不屈の闘志・改", "ゴッドハンド", "緊縛無効"],
-				"union":[95, 193, 93],
+				"union":[95, 139, 93],
 				"price":2500000},
 		]
 	},
@@ -1160,6 +1160,9 @@ church.data = [
 			{"name": "ミシャグジさま", "grade": 65, "rare": "★★★★", "img": "img/mishagujisama.png", "no": 201,
 				"prop":["-", "-", "-", "無 / 吸(防魔)", "弱", "弱", "無"],
 				"skill":["マハジオンガ", "テトラジャ", "未設定", "未設定", "未設定"]},
+			{"name": "デミウルゴス", "grade": 99, "rare": "★★★★★", "img": "img/demiurge.png", "no": 278,
+				"prop":["-", "無", "無", "耐 / 無(防魔)", "耐 / 無(防魔)", "無", "無"],
+				"skill":["メギドラオン", "万能ブースタ", "不動の権化", "奈落のマスク", "物理無効"]},
 		]
 	},
 	{
