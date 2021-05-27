@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta http-equiv="Pragma" content="public">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>D×2 真・女神転生 リベレーション 「〇〇は何の素材になるか」 妖樹仮対応版</title>
+<link rel = "stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+integrity="sha384-7tIwW4quYS2+TZCwuAPnUY+dRqg28ylzlIoVXAwpfiTs+CMKsAOSsWYQ96c/ZnV+"
+crossorigin="anonymous">
+<link rel="stylesheet"
+href="https://code.jquery.com/ui/1.12.1/themes/ui-darkness/jquery-ui.css"
+integrity="sha384-1RvqbC+xmnFD+R90ORvfEPxKEe7V5yfOhSi9htdS9dFQdjlgDF9u7gN+s1PGJAC2"
+crossorigin="anonymous">
+<link rel = "stylesheet" href="css/d2.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src ="./lib/jquery-ui.min.js"></script>
+<script src ="./lib/booleanArray.js"></script>
+
+<script src="js/church-interfaces.js"></script>
+<script src="js/church-data-wood.js"></script>
+<script src="js/church-price.js"></script>
+<script src="js/d2-view.js"></script>
+<script src="js/scrifice-search.js"></script>
+<script src="js/daemon-disp.js"></script>
+
+<script type="text/javascript">
+window.onload = function() {
+	InitializeMoon();
+	LunarPhaseCheck();
+	var stat = dView[mode].show();
+}
+</script>
+
+<script src="js/moon.js"></script>
+<script type="text/javascript">
+	setInterval('LunarPhaseCheck()',1000);
+</script>
+
+<header>
+	<h1>「〇〇は何の素材になるか」</h1>
+	<nav>
+		<ul>
+			<li><a href="./moon.html" id="Lunar phase" class="moon"></a></li>
+			<li>妖樹仮対応版</li>
+			<li><a href="./index-wood.html"><img src="img/ic-index.png" alt="">〇〇を作るには</a></li>
+			<li><a href="index2-wood.html"><img src="img/ic-index2.png" alt="">〇〇は何の素材になるか</a></li>
+      <li><span><a href = 
+    'https://github.com/wim-lab/d2/blob/master/README.md' target="_blank"
+         ><img src="img/ic-gh.png" alt="GitHub">このデータ改訂版について</a></li>
+		</ul>
+  </nav>
+</header>
+
+<div id="search-demon">
+	<ul id="search-info">
+		<li id="info-ic">Img</li>
+		<li id="info-name"><label for="search">Search Name :</label>
+			<input type="text" name="search" id="search" value="" placeholder="例: 妖樹99"><button id="search-btn" type="button">検索</button></li>
+		<li id="info-type">Type :<span>&nbsp;</span></li>
+		<li id="info-grade">Grade :<span>&nbsp;</span></li>
+		<li id="info-rare">Rare :<span>&nbsp;</span></li>
+	</ul>
+	<div id="search-howto"><img src="img/ic-howto.png" alt=""></div>
+	<dl class="search-remove">
+		<dt>除外したい素材</dt>
+    <dd><ul>
+			<li><input type="checkbox" id="with1"><label for="with1">★1</label></li>
+			<li><input type="checkbox" id="with2"><label for="with2">★2</label></li>
+			<li><input type="checkbox" id="with3"><label for="with3">★3</label></li>
+			<li><input type="checkbox" id="with4"><label for="with4">★4</label></li>
+			<li><input type="checkbox" id="with5"><label for="with5">★5</label></li>
+    </ul></dd>
+  </dl>
+	<dl class="search-remove">
+		<dt>除外したい結果</dt>
+    <dd><ul>
+			<li><input type="checkbox" id="get1"><label for="get1">★1</label></li>
+			<li><input type="checkbox" id="get2"><label for="get2">★2</label></li>
+			<li><input type="checkbox" id="get3"><label for="get3">★3</label></li>
+			<li><input type="checkbox" id="get4"><label for="get4">★4</label></li>
+			<li><input type="checkbox" id="get5"><label for="get5">★5</label></li>
+      </ul></dd>
+	</dl>
+</div>
+
+<section id="result">
+	<h2>検索結果</h2>
+</section>
+
+<footer>
+  <a href = "https://d2-megaten-l.sega.jp/" target = "_blank"
+         ><img src="img/logo.png" alt="D2x女神転生"></a>
+  <p id = "copyright" >©SEGA/©ATLUS</small></p>
+</footer>
+</html>
